@@ -1,0 +1,1810 @@
+.main-section {
+    background-color: #000000;
+    header {
+        padding-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .company{
+            img {
+                width: 143px;
+                height: 36px;
+            }
+        }
+        .menu {
+            display: none;
+        }
+    }
+    .banner-wrapper {
+        .banner-image {
+            margin-top: 51px;
+            img {
+                width: 282px;
+                height: 281px;
+            }
+        }
+        .banner-text {
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .banner-label {
+                color: #ed4e08;
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+            .banner-title {
+                color: #ffffff;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+                text-align: center;
+            }
+            .banner-subtitle {
+                margin-top: 10px;
+                color: #ffffff;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                text-align: center;
+                max-width: 225px;
+            }
+            .shopify-plus-image {
+                margin-top: 38px;
+                position: relative;
+                img {
+                    width: 73px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        background-color: #000000;
+        header {
+            padding-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .company{
+                img {
+                    width: 143px;
+                    height: 36px;
+                }
+            }
+            .menu {
+                display: none;
+            }
+        }
+        .banner-wrapper{
+            margin-top: 78px;
+            padding-bottom: 134px;
+            .banner-text{
+                margin-top: 101px;
+                display: block;
+                .banner-label {
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #ED4E08;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: left;
+                }
+                .banner-title {
+                    width: 344px;
+                    color: #ffffff;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 32px;
+                    line-height: 42px;
+                    margin-top: 2px;
+                    text-align: left;
+                }
+                .banner-subtitle {
+                    margin-top: 21px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: #ffffff;
+                    text-align: left;
+                    max-width: 335px;
+                }
+                .shopify-plus-image {
+                    margin-top: 79px;
+                    img {
+                        width: 102px;
+                        height: 22px;
+                    }
+                }
+            }
+            .banner-image {
+                margin-top: 0px;
+                img {
+                    width: 376px;
+                    height: 382px;
+                }
+            }
+        }
+        
+    }
+
+    @media (min-width:1200px) {
+        background-color: black;
+        header {
+            padding-top: 52px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            .company {
+                display: flex;
+                img {
+                    width: 239px;
+                    height: 58px;
+                }
+            }
+            .menu {
+                display: flex;
+                &__list {
+                    padding-left: 58px;
+                    padding-top: 17px;
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    position: relative;
+                }
+                .plus-sign {
+                    color: #D19900;
+                }
+                .work-with-us {
+                    background: #ED4E08 0% 0% no-repeat padding-box;
+                    border-radius: 5px;
+                    margin-left: 52px;
+                    padding: 17px 47px;
+                }
+            }
+            .hamburger-menu-image {
+                display: none;
+            }
+        }
+        .banner-wrapper{
+            margin-top: 109px;
+            padding-bottom: 162px;
+            position: relative;
+            &::after {
+                content: url('./assets/images/Arrow_Desktop_top.svg');
+                position: absolute;
+                top: 682px;
+                left: 64px;
+            }
+            .banner-text{
+                margin-top: 173px;
+                display: block;
+                .banner-label {
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #ED4E08;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: left;
+                }
+                .banner-title {
+                    width: 559px;
+                    color: #ffffff;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 52px;
+                    line-height: 62px;
+                    margin-top: 2px;
+                    text-align: left;
+                }
+                .banner-subtitle {
+                    margin-top: 32px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: #ffffff;
+                    text-align: left;
+                    max-width: 401px;
+                }
+                .shopify-plus-image {
+                    margin-top: 142px;
+                    img {
+                        width: 147px;
+                        height: 32px;
+                    }
+                }
+            }
+            .banner-image {
+                margin-top: 0px;
+                img {
+                    width: 579px;
+                    height: 576px;
+                }
+            }
+        }
+    }
+}
+
+.case-studies-section {
+    background-color: #ffffff;
+    position: relative;
+    .case-studies-wrapper { 
+        margin-top: 51px;
+        .case-studies-text {
+            .case-studies-label {
+                color: #ed4e08;
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+            .case-studies-title {
+                margin-top: -20px;
+                color: #15141b;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 24px;
+                line-height: 62px;
+                text-align: center;
+            }
+            .case-studies-subtitle {
+                margin-top: -10px;
+                max-width: 309px;
+                color: #15141b;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+            .case-studies-view-all {
+                position: absolute;
+                top: 526px;
+                left: 40%;
+                .arrow-image {
+                    margin-left: 21px;
+                }
+            }
+        }
+        .case-studies-carousel {
+            padding-bottom: 92px;
+            display: block;
+            .carousel-card {
+                .card-carousel-image {
+                    position: relative;
+                    margin-top: 10px;
+                    img {
+                        width: 260px;
+                        height: 375px;
+                    }
+                }
+                .card-carousel-title {
+                    position: absolute;
+                    top: 281px;
+                    margin-left: 34px;
+                    color: #ffffff;
+                    font-size: 19px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    font-family: 'Catamaran', sans-serif;
+                }
+                 .card-carousel-subtitle {
+                    position: absolute;
+                    top: 310px;
+                    max-width: 203px;
+                    margin-left: 34px;
+                    color: #ffffff;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 100;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+    .background-gray {
+        position: relative;
+        .office-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .shoptrade-office-image {
+                img {
+                    max-width: 379px;
+                }
+                order: 2;
+            }
+            .shoptrade-office-text-wrapper {
+                order: 1;
+                .shoptrade-office-label {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                }
+                .shoptrade-office-title {
+                    max-width: 241px;
+                    color: #15141b;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 62px;
+                    margin-top: -28px;
+                    text-align: center;
+                }
+            }
+        }
+        .shoptrade-detail-text {
+            color: #15141b;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 22px;
+            max-width: 282px;
+            text-align: center;
+            margin-top: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        background-color: #ffffff;
+        .case-studies-wrapper {
+            margin-top: 82px;
+            position: relative;
+            .case-studies-text {
+                max-width: 256px;
+                margin: auto;
+                .case-studies-label {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                }
+                .case-studies-title {
+                    color: #15141b;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 32px;
+                    line-height: 62px;
+                    text-align: center;
+                }
+                .case-studies-subtitle {
+                    color: #15141b;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    text-align: center;
+                }
+                .case-studies-view-all {
+                    position: absolute;
+                    top: 740px;
+                }
+            }
+            .case-studies-carousel {
+                padding-bottom: 102px;
+                display: flex;
+                justify-content: center;
+                .carousel-card {
+                    //margin-left: 10px;
+                    .card-carousel-image {
+                        position: relative;
+                        margin-top: 0px;
+                        img {
+                            width: 343px;
+                            height: 588px;
+                        }
+                    }
+                    .card-carousel-title {
+                        position: absolute;
+                        top: 489px;
+                        margin-left: 30px;
+                        color: #ffffff;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 23px;
+                    }
+                     .card-carousel-subtitle {
+                        position: absolute;
+                        top: 519px;
+                        max-width: 241px;
+                        margin-left: px;
+                        color: #ffffff;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .background-gray {
+            position: relative;
+            .office-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .shoptrade-office-image {
+                    img {
+                        max-width: 100%;
+                    }
+                    order: 2;
+                }
+                .shoptrade-office-text-wrapper {
+                    order: 1;
+                    .shoptrade-office-label {
+                        color: #ed4e08;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: center;
+                    }
+                    .shoptrade-office-title {
+                        max-width: 309px;
+                        color: #15141b;
+                        font-family: 'Catamaran', sans-serif;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 62px;
+                        margin-top: -18px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+            .shoptrade-detail-text {
+                color: #15141b;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 22px;
+                max-width: 584px;
+                text-align: center;
+                margin: 42px auto 0px auto;
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        background-color: #ffffff;
+        .case-studies-wrapper {
+            margin-top: 83px;
+            position: relative;
+            &::before {
+                content: url('./assets/images/Arrow_desktop_bottom.svg');
+                position: absolute;
+                top: 0px;
+                left: 64px;
+            }
+            .case-studies-text {
+                margin-top: 295px;
+                max-width: 311px;
+                .case-studies-label {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+                .case-studies-title {
+                    max-width: 203px;
+                    margin-top: 2px;
+                    color: #15141b;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 52px;
+                    line-height: 62px;
+                    text-align: left;
+                }
+                .case-studies-subtitle {
+                    margin-top: 23px;
+                    max-width: 309px;
+                    color: #15141b;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+                .case-studies-view-all {
+                    margin-top: 76px;
+                    position: static;
+                    .arrow-image {
+                        margin-left: 21px;
+                    }
+                }
+            }
+            .case-studies-carousel {
+                padding-bottom: 267px;
+                display: flex;
+                justify-content: center;
+                .slick-prev {
+                    &:before {
+                        content: url('./assets/images/st_leftarrow.svg');
+                        position: absolute;
+                        top: 280px;
+                        left: 670px;
+                    }
+                }
+                .slick-next {
+                    &:before {
+                        content: url('./assets/images/st_rightarrow.svg');
+                        position: absolute;
+                        top: 280px;
+                        left: -300px;
+                    }
+                }
+                .carousel-card {
+                    margin-left: 10px;
+                    .card-carousel-image {
+                        position: relative;
+                        margin-top: 0px;
+                        img {
+                            width: 444px;
+                            height: 762px;
+                        }
+                    }
+                    .card-carousel-title {
+                        position: absolute;
+                        top: 610px;
+                        margin-left: 63px;
+                        color: #ffffff;
+                        font-size: 32px;
+                        font-weight: 400;
+                        line-height: 32px;
+                    }
+                     .card-carousel-subtitle {
+                        position: absolute;
+                        top: 659px;
+                        max-width: 305px;
+                        margin-left: 63px;
+                        color: #ffffff;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 15px;
+                        font-weight: 300;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        .background-gray {
+            background-color: #f8f8f8;
+            height: 768px;
+            position: relative;
+            .office-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -116px;
+                .shoptrade-office-image {
+                    img {
+                        max-width: 1040px;
+                    }
+                    order: 1;
+                }
+                .shoptrade-office-text-wrapper {
+                    order: 2;
+                    .shoptrade-office-label {
+                        color: #ed4e08;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-top: 188px;
+                        text-align: left;
+                    }
+                    .shoptrade-office-title {
+                        max-width: 241px;
+                        color: #15141b;
+                        font-family: 'Catamaran', sans-serif;
+                        font-size: 52px;
+                        font-weight: 700;
+                        line-height: 62px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        text-align: left;
+                    }
+                }
+            }
+            .shoptrade-detail-text {
+                position: absolute;
+                top: 588px;
+                margin: 0px auto 0px 155px;
+                color: #15141b;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 32px;
+                max-width: 974px;
+            }
+        }
+    }  
+}
+
+.service-section {
+    margin-top: 30px;
+    .service-text-wrapper {
+        text-align: center;
+        .service-label {
+            color: #ed4e08;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        .service-title {
+            max-width: 454px;
+            font-family: 'Catamaran', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .service-subtitle {
+            display: none;
+        }
+        .service-learn-more {
+            display: none;
+        }
+    }
+    .service-cards-wrapper {
+        display: flex;
+        background-image: url('./assets/images/st_backgroundimage.jpg');
+        background-repeat: no-repeat;
+        background-position: left 170px;
+        .first-set-cards {
+            margin-top: 190px;
+            .card-1 {
+                margin-top: 20px;
+                margin-right: 16px;
+                width: 209px;
+                height: 332px;
+                box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding-left: 46px;
+                .card-1-text {
+                    max-width: 176px;
+                    color: #15141b;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 27px;
+                }
+            }
+            .bottom-card {
+                opacity: 0.7;
+                box-shadow: none;
+            }
+            .bottom-card-image {
+                opacity: 0.05;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        margin-top: 90px;
+        .service-wrapper {
+            margin: auto;
+            .service-text-wrapper {
+                .service-label {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                }
+                .service-title {
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 42px;
+                    text-align: center;
+                    margin-right: 0px;
+                }
+                .service-subtitle {
+                    display: none;
+                }
+                .service-learn-more {
+                    display: none;
+                }
+            }
+            .service-cards-wrapper {
+                display: flex;
+                background-image: none;
+                .first-set-cards {
+                    margin-top: 0;
+                    .card-1 {
+                        margin-top: 20px;
+                        margin-right: 16px;
+                        width: 222px;
+                        height: 341px;
+                        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+                        border-radius: 10px;
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 46px;
+                        .card-1-text {
+                            max-width: 176px;
+                            color: #15141b;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 27px;
+                        }
+                        .card-1-image {
+                            img {
+                                max-width: 44px;
+                                height: 41px;
+                            }
+                        }
+                    }
+                    .bottom-card {
+                        /* opacity: 0.7;
+                        box-shadow: none; */
+                        display: none;
+                    }
+                    .bottom-card-image {
+                        opacity: 0.05;
+                    }
+                }
+                .second-set-cards {
+                    margin-top: 0px;
+                    .card-2 {
+                        margin-top: 20px;
+                        width: 222px;
+                        height: 341px;
+                        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+                        border-radius: 10px;
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 46px;
+                        .card-2-text {
+                            max-width: 176px;
+                            color: #15141b;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 27px;
+                        }
+                        .card-2-image {
+                            img {
+                                max-width: 44px;
+                                height: 41px;
+                            }
+                        }
+                    }
+                    .top-card {
+                        /* box-shadow: none;
+                        opacity: 0.4;
+                        height: 225px;
+                        justify-content: flex-end;
+                        padding-bottom: 40px; */
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        margin-top: 0px;
+        .service-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            .service-text-wrapper {
+                .service-label {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+                .service-title {
+                    max-width: 454px;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 52px;
+                    font-weight: 700;
+                    line-height: 62px;
+                    text-align: left;
+                }
+                .service-subtitle {
+                    display: block;
+                    margin-top: 29px;
+                    max-width: 559px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: left;
+                }
+                .service-learn-more {
+                    display: block;
+                    margin-top: 68px;
+                    color: #000000;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+            }
+            .service-cards-wrapper {
+                display: flex;
+                background-image: url('./assets/images/st_backgroundimage.jpg');
+                background-repeat: no-repeat;
+                background-position: left 170px;
+                .first-set-cards {
+                    margin-top: 190px;
+                    .card-1 {
+                        margin-top: 20px;
+                        margin-right: 16px;
+                        width: 329px;
+                        height: 315px;
+                        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+                        border-radius: 10px;
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 46px;
+                        .card-1-text {
+                            max-width: 176px;
+                            color: #15141b;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 32px;
+                        }
+                        .card-1-image {
+                            img {
+                                max-width: 69px;
+                                height: 64px;
+                            }
+                        }
+                    }
+                    .bottom-card {
+                        opacity: 0.7;
+                        box-shadow: none;
+                    }
+                    .bottom-card-image {
+                        opacity: 0.05;
+                    }
+                }
+                .second-set-cards {
+                    margin-top: 0px;
+                    .card-2 {
+                        margin-top: 20px;
+                        width: 329px;
+                        height: 315px;
+                        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+                        border-radius: 10px;
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 46px;
+                        .card-2-text {
+                            max-width: 176px;
+                            color: #15141b;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 32px;
+                        }
+                        .card-2-image {
+                            img {
+                                max-width: 69px;
+                                height: 64px;
+                            }
+                        }
+                    }
+                    .top-card {
+                        box-shadow: none;
+                        opacity: 0.4;
+                        height: 225px;
+                        justify-content: flex-end;
+                        padding-bottom: 40px;
+                    }
+                    .top-card-text {
+                        opacity: 0;
+                    }
+                }
+            }
+            .view-all-cards {
+                display: none;
+            }
+        }
+    }
+}
+
+.skeptics-speak-section {
+    .main-heading {
+        text-align: center;
+        .main-title {
+            color: #15141b;
+            font-family: 'Catamaran', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .main-subtitle {
+            color: #15141b;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;               
+        }
+    }
+        .skeptics-speak-wrapper{ 
+            .skeptics-speak-image {
+                .main-image {
+                    max-width: 263px;
+                    height: 335px;
+                    position: relative;
+                }
+                .play-button-image {
+                    position: absolute;
+                    top: 268px;
+                    left: 195px;
+                    max-width: 45px;
+                    max-height: 45px;
+                }
+            }
+            .skeptics-speak-text-wrapper {
+                .skeptics-speak-name-designation-wrapper {
+                    position: absolute;
+                    top: -72px;
+                    left: 22px;
+                    z-index: 1;
+                    .skeptics-speak-name {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                    }
+                    .skeptics-speak-designation {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 12px;
+                        font-weight: 400;
+                        font-style: italic;
+                        line-height: 19px;
+                    }
+                }
+                .skeptics-speak-comment {
+                    text-align: center;
+                    margin-top: 30px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+            }
+        }
+    .stats-area {
+        background-color: #f8f8f8;
+        padding-top: 220px;
+        padding-bottom: 60px;
+        margin-top: -200px;
+        z-index: -1;
+         .stats-card {
+             max-width: 136px;
+             height: 128px;
+             border-radius: 10px;
+             background-color: #ffffff;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             align-items: center;
+             padding-top: 10px;
+             margin-bottom: 10px;
+             margin-left: 6px;
+             .stats-figures {
+                 color: #ed4e08;
+                 font-size: 32px;
+                 font-weight: 700;
+                 line-height: 33px;
+             }
+             .stats-text {
+                 color: #625c5c;
+                 font-family: 'Roboto', sans-serif;
+                 font-size: 10px;
+                 font-weight: 700;
+                 line-height: 10px;
+                 max-width: 106px;
+             }
+         }
+     }
+
+     @media (min-width: 768px) {
+        .main-heading {
+            text-align: center;
+            .main-title {
+                color: #15141b;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 26px;
+            }
+            .main-subtitle {
+                color: #15141b;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;               
+            }
+        }
+            .skeptics-speak-wrapper{ 
+                .skeptics-speak-image {
+                    .main-image {
+                        max-width: 223px;
+                        height: 324px;
+                        position: relative;
+                    }
+                    .play-button-image {
+                        position: absolute;
+                        top: 268px;
+                        left: 195px;
+                        max-width: 45px;
+                        max-height: 45px;
+                    }
+                }
+                .skeptics-speak-text-wrapper {
+                    .skeptics-speak-name-designation-wrapper {
+                        position: absolute;
+                        top: -72px;
+                        left: 22px;
+                        z-index: 1;
+                        .skeptics-speak-name {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 19px;
+                        }
+                        .skeptics-speak-designation {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 12px;
+                            font-weight: 400;
+                            font-style: italic;
+                            line-height: 19px;
+                        }
+                    }
+                    .skeptics-speak-comment {
+                        text-align: center;
+                        margin-top: 30px;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 28px;
+                    }
+                }
+            }
+        .stats-area {
+            background-color: #f8f8f8;
+            padding-top: 220px;
+            padding-bottom: 60px;
+            margin-top: -200px;
+            z-index: -1;
+             .stats-card {
+                 max-width: 164px;
+                 height: 158px;
+                 border-radius: 10px;
+                 background-color: #ffffff;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-around;
+                 align-items: center;
+                 //spadding-top: 10px;
+                 margin-bottom: 10px;
+                 //margin-left: 6px;
+                 .stats-figures {
+                     color: #ed4e08;
+                     font-size: 35px;
+                     font-weight: 400;
+                     line-height: 40px;
+                 }
+                 .stats-text {
+                     color: #625c5c;
+                     font-family: 'Roboto', sans-serif;
+                     font-size: 12px;
+                     font-weight: 700;
+                     line-height: 18px;
+                     max-width: 127px;
+                 }
+             }
+         }
+     }
+
+    @media (min-width: 1200px) {
+        position: relative;
+        .main-heading {
+            text-align: center;
+            .main-title {
+                color: #15141b;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 62px;
+            }
+            .main-subtitle {
+                color: #15141b;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;               
+            }
+        }
+        .skeptics-speak-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 52px;
+            padding-bottom: 255px;
+            .skeptics-speak-text-wrapper {
+                .skeptics-speak-comment {
+                    color: #15141b;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    text-align: left;
+                }
+                .skeptics-speak-name-designation-wrapper {
+                    color: #15141b;
+                    width: 149px;
+                    height: 45px;
+                    margin-top: 33px;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    .skeptics-speak-name {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    .skeptics-speak-designation {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-style: italic;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .skeptics-speak-image-wrapper {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                .slick-prev {
+                    &:before {
+                        content: url('./assets/images/st_leftarrow.svg');
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+                .slick-next {
+                    &:before {
+                        content: url('./assets/images/st_rightarrow.svg');
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                    }
+                }
+                    .main-image {
+                        max-width: 329px;
+                        height: 460px;
+                        position: relative;
+                        margin-left: 15px;
+                        
+                    }
+                    .play-button-image {
+                        position: absolute;
+                        top: 385px;
+                        left: 270px;
+                        max-width: 75px;
+                        height: 75px;
+                    }
+            }
+        }
+        .stats-area {
+           background-color: #f8f8f8;
+           padding-top: 255px;
+           padding-bottom: 60px;
+           margin-top: -328px;
+            .stats-card {
+                max-width: 326px;
+                height: 306px;
+                border-radius: 10px;
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding-top: 50px;
+                .stats-figures {
+                    color: #ed4e08;
+                    font-size: 69px;
+                    font-weight: 400;
+                    line-height: 78px;
+                }
+                .stats-text {
+                    color: #625c5c;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    max-width: 190px;
+                }
+            }
+        }
+    }
+}
+
+.shopify-coo-section {
+    .coo-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        .coo-text-wrapper {
+            order: 2;
+            margin-top: 27px;
+            .coo-label {
+                max-width: 282px;
+                color: #000000;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: center;
+            }
+            .coo-title {
+                margin-top: 20px;
+                color: #000000;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 28px;
+                text-align: center;
+            }
+            .coo-subtitle {
+                color: #9f9f9f;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+        .coo-image-wrapper {
+            order: 1;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            margin-top: 50px;
+            .coo-image {
+                position: relative;
+                img {
+                    max-width: 226px;
+                    height: 282px;
+                }
+            }
+            .orange-image {
+                position: absolute;
+                top: -21px;
+                right: -19px;
+                img {
+                    max-width: 226px;
+                    height: 282px;
+                }
+            }
+        }
+    }
+    .coo-subarea {
+        margin-top: 23px;
+        margin-bottom: 128px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //text-align: center;
+        .subarea-wrapper {
+            margin-top: 20px;
+            margin-bottom: 43px;
+            .subarea-subtitle {
+                color: #ed4e08;
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+            .subarea-title {
+                color: #000000;
+                font-family: 'Catamaran', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+                max-width: 214px;
+                text-align: center;
+            }
+            .subarea-work-with-us{
+                background: #ED4E08;
+                border-radius: 5px;
+                margin-top: 21px;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 13px 41px 5px 41px;
+                color: #ffffff;
+                font-family: 'Roboto', sans-serif;
+                font-size: 10px;
+                font-weight: 500;
+                max-width: 156px;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .coo-wrapper {
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            .coo-text-wrapper {
+                margin-left: 0px;
+                margin-top: 0px;
+                order: 1;
+                .coo-label {
+                    max-width: 404px;
+                    color: #000000;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                }
+                .coo-title {
+                    margin-top: 36px;
+                    color: #000000;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: left;
+                }
+                .coo-subtitle {
+                    margin-top: 10px;
+                    color: #9f9f9f;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+            }
+            .coo-image-wrapper {
+                order: 2;
+                position: relative;
+                top: 0;
+                bottom: 0;
+                .coo-image {
+                    position: relative;
+                    img {
+                        max-width: 207px;
+                        height: 259px;
+                    }
+                }
+                .orange-image {
+                    position: absolute;
+                    top: -19px;
+                    right: -17px;
+                    img {
+                        max-width: 207px;
+                        height: 259px;
+                    }
+                }
+            }
+        }
+        .coo-subarea {
+            margin-top: 114px;
+            margin-bottom: 128px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .subarea-wrapper {
+                margin-top: 65px;
+                margin-bottom: 65px;
+                .subarea-subtitle {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 14px;
+                }
+                .subarea-title {
+                    margin-top: 10px;
+                    color: #000000;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 31px;
+                    max-width: 482px;
+                }
+                .subarea-work-with-us{
+                    background: #ED4E08;
+                    border-radius: 5px;
+                    padding: 18px 47px;
+                    max-width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 32px;
+                    color: #ffffff;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 13px;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .coo-wrapper {
+            margin-top: 125px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            .coo-text-wrapper {
+                margin-left: 115px;
+                margin-top: 0px;
+                order: 1;
+                .coo-label {
+                    max-width: 674px;
+                    color: #000000;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: left;
+                }
+                .coo-title {
+                    margin-top: 36px;
+                    color: #000000;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: left;
+                }
+                .coo-subtitle {
+                    margin-top: 10px;
+                    color: #9f9f9f;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+            }
+            .coo-image-wrapper {
+                order: 2;
+                position: relative;
+                top: 0;
+                bottom: 0;
+                .coo-image {
+                    position: relative;
+                    img {
+                        max-width: 304px;
+                        height: 379px;
+                    }
+                }
+                .orange-image {
+                    position: absolute;
+                    top: -28px;
+                    right: -28px;
+                    img {
+                        max-width: 304px;
+                        height: 379px;
+                    }
+                }
+            }
+        }
+        .coo-subarea {
+            margin-top: 114px;
+            margin-bottom: 128px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .subarea-wrapper {
+                margin-top: 65px;
+                margin-bottom: 65px;
+                .subarea-subtitle {
+                    color: #ed4e08;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+                .subarea-title {
+                    color: #000000;
+                    font-family: 'Catamaran', sans-serif;
+                    font-size: 52px;
+                    font-weight: 700;
+                    line-height: 62px;
+                    max-width: 696px;
+                }
+                .subarea-work-with-us{
+                    background: #ED4E08;
+                    border-radius: 5px;
+                    padding: 18px 47px;
+                    max-width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 32px;
+                    color: #ffffff;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+    
+}
+
+.final-section {
+    footer {
+        background-color: #000000;
+        position: relative;
+        .footer-wrapper {
+            position: absolute;
+            top: -21px;
+            img {
+                max-width: 63px;
+                height: 65px;
+            }
+        }
+        .footer-area {
+            padding-top: 82px;
+            .header-title {
+                margin-top: 40px;
+                color: #ffffff;
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+            }
+            .newsletter-label {
+                max-width: 223px;
+            }
+            .header-collection {
+                margin-top: 13px;
+                color: #ffffff;
+                font-family: 'Roboto',sans-serif;
+                font-size: 14px;
+                font-weight: 50;
+                line-height: 28px;
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+        .base-footer-wrapper {
+            margin-top: 23px;
+            //padding-bottom: 64px;
+            .copyrights {
+                opacity: 0.5;
+                color: #ffffff;
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            .base-shopify-images {
+                .footer-shopify-1 {
+                    max-width: 100px;
+                    height: 21px;
+                    position: absolute;
+                    left: 182px;
+                    top: -1142px;
+                }
+                .footer-shopify-2 {
+                    max-width: 100px;
+                    height: 21px;
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        footer {
+            background-color: #000000;
+            position: relative;
+            .footer-wrapper {
+                position: absolute;
+                top: -21px;
+                margin-left: 152px;
+                img {
+                    max-width: 104px;
+                    height: 104px;
+                }
+            }
+            .footer-area {
+                padding-top: 123px;
+                margin-left: 152px;
+                .header-title {
+                    margin-top: 40px;
+                    color: #ffffff;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                }
+                .newsletter-label {
+                    max-width: 223px;
+                }
+                .header-collection {
+                    margin-top: 13px;
+                    color: #ffffff;
+                    font-family: 'Roboto',sans-serif;
+                    font-size: 14px;
+                    font-weight: 50;
+                    line-height: 28px;
+                    p {
+                        margin: 0px;
+                    }
+                }
+            }
+            .base-footer-wrapper {
+                margin-top: 23px;
+                //padding-bottom: 64px;
+                .copyrights {
+                    opacity: 0.5;
+                    color: #ffffff;
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-left: 152px;
+                }
+                .base-shopify-images {
+                    .footer-shopify-1 {
+                        max-width: 100px;
+                        height: 21px;
+                        position: absolute;
+                        left: 543px;
+                        top: -1142px;
+                    }
+                    .footer-shopify-2 {
+                        max-width: 100px;
+                        height: 21px;
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        footer {
+            background-color: #000000;
+            position: relative;
+            .footer-wrapper {
+                position: absolute;
+                top: -24px;
+                img {
+                    max-width: 99px;
+                    height: 99px;
+                }
+            }
+            .footer-area {
+                padding-top: 150px;
+                .header-title {
+                    color: #ffffff;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                }
+                .header-collection {
+                    margin-top: 13px;
+                    color: #ffffff;
+                    font-family: 'Roboto',sans-serif;
+                    font-size: 18px;
+                    font-weight: 50;
+                    line-height: 28px;
+                    p {
+                        margin: 0px;
+                    }
+                }
+                .second-row-footer {
+                    margin-top: 56px;
+                    .newsletter {
+                        border-radius: 5px;
+                        background-color: #2e2e2e;
+                        padding: 17px 24px;
+                        text-align: left;
+                        font-size: 14px;
+                        font-family: 'Roboto', sans-serif;
+                        line-height: 28px;
+                        color: #a698ff;
+                    }
+                }
+            }
+            .base-footer-wrapper {
+                margin-top: 89px;
+                padding-bottom: 64px;
+                .copyrights {
+                    opacity: 0.5;
+                    color: #ffffff;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+                .base-shopify-images {
+                    .footer-shopify-1 {
+                        max-width: 100px;
+                        height: 21px;
+                        position: relative;
+                        left: 0;
+                        top: 0;
+                        
+                    }
+                    
+                    .footer-shopify-2 {
+                        max-width: 100px;
+                        height: 21px;
+                        display: block;
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}
