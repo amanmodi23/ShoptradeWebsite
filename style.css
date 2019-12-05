@@ -121,10 +121,11 @@
   }
   .main-section .banner-wrapper .banner-image {
     margin-top: 0px;
-  }
-  .main-section .banner-wrapper .banner-image img {
     width: 376px;
     height: 382px;
+  }
+  .main-section .banner-wrapper .banner-image img {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
@@ -173,12 +174,12 @@
     margin-top: 109px;
     padding-bottom: 162px;
     position: relative;
-  }
-  .main-section .banner-wrapper::after {
-    content: url("./assets/images/Arrow_Desktop_top.svg");
-    position: absolute;
-    top: 682px;
-    left: 64px;
+    /* &::after {
+        content: url('./assets/images/Arrow_Desktop_top.svg');
+        position: absolute;
+        top: 682px;
+        left: 64px;
+    } */
   }
   .main-section .banner-wrapper .banner-text {
     margin-top: 173px;
@@ -221,7 +222,7 @@
     margin-top: 0px;
   }
   .main-section .banner-wrapper .banner-image img {
-    width: 579px;
+    width: 100%;
     height: 576px;
   }
 }
@@ -394,10 +395,12 @@
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image {
     position: relative;
     margin-top: 0px;
+    max-width: 343px;
+    height: 588px;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
-    width: 343px;
-    height: 588px;
+    width: 100%;
+    height: auto;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
     position: absolute;
@@ -476,12 +479,6 @@
     margin-top: 83px;
     position: relative;
   }
-  .case-studies-section .case-studies-wrapper::before {
-    content: url("./assets/images/Arrow_desktop_bottom.svg");
-    position: absolute;
-    top: 0px;
-    left: 64px;
-  }
   .case-studies-section .case-studies-wrapper .case-studies-text {
     margin-top: 295px;
     max-width: 311px;
@@ -529,24 +526,26 @@
     content: url("./assets/images/st_leftarrow.svg");
     position: absolute;
     top: 280px;
-    left: 670px;
+    left: 800px;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .slick-next:before {
     content: url("./assets/images/st_rightarrow.svg");
     position: absolute;
     top: 280px;
-    left: -300px;
+    left: -58px;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card {
-    margin-left: 10px;
+    padding-right: 10px;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image {
     position: relative;
     margin-top: 0px;
+    max-width: 444px;
+    height: 762px;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
-    width: 444px;
-    height: 762px;
+    width: 100%;
+    height: auto;
   }
   .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
     position: absolute;
@@ -992,24 +991,38 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 10px;
+  /* justify-content: space-around;
+  align-items: center; */
+  padding-top: 25px;
   margin-bottom: 10px;
   margin-left: 6px;
 }
-.skeptics-speak-section .stats-area .stats-card .stats-figures {
+.skeptics-speak-section .stats-area .stats-card .stats {
+  margin: 0 auto;
+}
+.skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
   color: #ed4e08;
   font-size: 32px;
   font-weight: 700;
   line-height: 33px;
+  position: relative;
 }
-.skeptics-speak-section .stats-area .stats-card .stats-text {
+.skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #9f9f9f;
+  top: 45px;
+  left: 0;
+  width: 18px;
+  height: 1px;
+}
+.skeptics-speak-section .stats-area .stats-card .stats .stats-text {
+  padding-top: 18px;
   color: #625c5c;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   font-weight: 700;
-  line-height: 10px;
+  line-height: 12px;
   max-width: 106px;
 }
 @media (min-width: 768px) {
@@ -1083,23 +1096,35 @@
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 10px;
+    padding-top: 29px;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats-figures {
+  .skeptics-speak-section .stats-area .stats-card .stats {
+    margin: 0 auto;
+  }
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
     color: #ed4e08;
     font-size: 35px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 35px;
+    position: relative;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats-text {
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #9f9f9f;
+    top: 46px;
+    left: 0;
+    width: 20px;
+    height: 1px;
+  }
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-text {
     color: #625c5c;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     max-width: 127px;
+    padding-top: 24px;
   }
 }
 @media (min-width: 1200px) {
@@ -1204,17 +1229,32 @@
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 50px;
+    /* justify-content: space-around;
+    align-items: center; */
+    padding-top: 62px;
+    margin: 0;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats-figures {
+  .skeptics-speak-section .stats-area .stats-card .stats {
+    margin: 0 auto;
+  }
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
     color: #ed4e08;
     font-size: 69px;
     font-weight: 400;
     line-height: 78px;
+    position: relative;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats-text {
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
+    content: "";
+    border: 1px solid #9f9f9f;
+    position: absolute;
+    left: 0;
+    width: 42px;
+    height: 2px;
+    top: 103px;
+  }
+  .skeptics-speak-section .stats-area .stats-card .stats .stats-text {
+    padding-top: 55px;
     color: #625c5c;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -1701,10 +1741,7 @@
   .final-section footer .footer-area .header-collection p {
     margin: 0px;
   }
-  .final-section footer .footer-area .second-row-footer {
-    margin-top: 56px;
-  }
-  .final-section footer .footer-area .second-row-footer .newsletter {
+  .final-section footer .footer-area .newsletter {
     border-radius: 5px;
     background-color: #2e2e2e;
     padding: 17px 24px;
