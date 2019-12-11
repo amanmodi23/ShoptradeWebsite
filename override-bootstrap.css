@@ -1,4 +1,4 @@
-.custom-container {
+/* .custom-container {
   max-width: 282px !important;
   margin-left: auto;
   margin-right: auto;
@@ -22,3 +22,12 @@
 }
 
 
+ */
+
+ .container-fluid {
+  max-width: 1365px !important;
+ }
+
+ /* body,* {
+   border: 3px solid red;
+ } */
