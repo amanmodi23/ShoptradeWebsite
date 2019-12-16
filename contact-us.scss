@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(assets/fonts/roboto.regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(assets/fonts/roboto.bold.ttf);
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(assets/fonts/roboto.medium.ttf);
+}
+@font-face {
+    font-family: "Catamaran EB";
+    src: url(assets/fonts/catamaran.extrabold.ttf);
+}
+.heading-h1 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Catamaran EB"
+}
+.heading-h2 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Catamaran EB"
+}
+.paragraph-p1 {
+    font-size: 14px;
+    line-height: 62px;
+    color: #ffffff;
+    font-family: "Roboto Bold";
+}
+.paragraph-p2 {
+    font-size: 12px;
+    line-height: 62px;
+    color: #505050;
+    font-family: "Roboto Bold";
+}
+.paragraph-p3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Roboto Bold";
+}
+.paragraph-p4 {
+    font-size: 12px;
+    line-height: 45px;
+    color: #505050;
+    font-family: "Roboto Regular";
+}
+.paragraph-p5 {
+    font-size: 15px;
+    line-height: 45px;
+    color: #000000;
+    font-family: "Roboto Regular";
+}
+.contact-us-section {
+    background: linear-gradient(180deg, #15141b 63%, #ffffff 40%);
+    overflow-x: hidden;
+    @media (min-width: 768px) {
+    background: linear-gradient(180deg, #15141b 75%, #ffffff 40%);
+    position: relative;
+    }
+    .main-title {
+        padding-top: 40px;
+        @media (min-width: 768px) {
+            padding-top: 60px;
+        }
+        @media (min-width: 1200px) {
+            padding-top: 130px;
+        }
+        h1 {
+            color: #ffffff;
+            @media (min-width: 768px) {
+                font-size: 32px;
+                line-height: 62px;
+            }
+            @media (min-width: 1200px) {
+                font-size: 52px;
+                line-height: 62px;
+            }
+        }
+    }
+    .text-wrapper {
+        width: 100%;
+        height: 62px;
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            width: 439px;
+            height: 62px;
+            margin-top: 30px;
+        }
+        .input-text {
+            width: 100%;
+            height: auto;
+            padding:0 0 0 10px;
+            border: 1px solid #ffffff;
+            background: #15141b;
+            &::placeholder {
+                color: #ffffff;
+            }
+        }
+        .box {
+            border: 1px solid #ffffff;
+            position: relative;
+            &::before {
+                content: '>';
+                transform: rotate(90deg);
+                position: absolute;
+                top: 15px;
+                right: 24px;
+                color: #ffffff;
+                pointer-events: none;
+            }
+            .budget-text {
+                margin: 0;
+                position: absolute;
+                top: -18px;
+                left: 6px;
+                color: #ffffff;
+                font-family: "Roboto Regular";
+            }
+            select {
+                color: #ffffff;
+                width: 100%;
+                height: 52px;
+                padding-top: 20px;
+            }
+        } 
+    }
+    .radio-button-label {
+        margin-top: 28px;
+        @media (min-width: 768px) {
+            margin-top: 38px;
+        }
+        .radio-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            .radio-1 {
+                display: flex;
+                justify-content: center;
+                &:nth-child(2) {
+                    margin-left: 37px;
+                }
+                .radio-boolean {
+                    width: 21px;
+                    height: 21px;
+                }
+                .paragraph-p3 {
+                    font-family: "Roboto Regular";
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .detail-text-wrapper {
+        margin-top: 30px;
+        text-align: left;
+        @media (min-width: 768px) {
+            max-width: 478px;
+        }
+        .paragraph-p3 {
+            font-family: "Roboto Regular";
+            font-size: 15px;
+        }
+    }
+    .submit-button {
+        background: #ed4e08;
+        text-align: center;
+        width: 183px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        .paragraph-p3 {
+            padding: 15px 62px;
+        }
+    }
+    .custom-override-image {
+        position: unset;
+        .image-wrapper {
+            width: 100%;
+            height: 370px;
+            overflow: hidden;
+            //transform: translate(0%,-184px);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                @media (min-width: 768px) {
+                    background-image: url(assets/images/contact_ipad@2x.jpg);
+                    height: 1200px;
+                    position: absolute;
+                    top: 0;
+                }
+            }
+        }
+    }
+    .enquiry-title {
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            margin-top: 0px;
+            font-size: 24px;
+            line-height: 36px;
+            max-width: 424px;
+        }
+    }
+    .paragraph-p4 {
+        margin-bottom: 0;
+    }
+    .paragraph-p5 {
+        margin-bottom: 0;
+    }
+    .address {
+        width: 101px;
+        line-height: 24px;
+    }
+    .social-links-wrapper {
+        img {
+            margin-right: 27px
+        }
+       .fb-icon {
+           width: 7px;
+           height: 15px;  
+       }
+       .tw-icon {
+        width: 15px;
+        height: 12px;  
+        }
+        .li-icon {
+            width: 13px;
+            height: 13px;  
+        }
+    }
+}
+
+.footer-section {
+    position: relative;
+    
+}
+
