@@ -519,15 +519,19 @@
   .case-studies-section {
     background-color: #ffffff;
   }
-  .case-studies-section .case-studies-wrapper {
+  .case-studies-section .custom-container {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .case-studies-section .custom-container .case-studies-wrapper {
     margin-top: 83px;
     position: relative;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text {
     margin-top: 295px;
     max-width: 311px;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text .case-studies-label {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text .case-studies-label {
     color: #ed4e08;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -535,7 +539,7 @@
     line-height: 28px;
     text-align: left;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text .case-studies-title {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text .case-studies-title {
     max-width: 203px;
     margin-top: 2px;
     color: #15141b;
@@ -544,7 +548,7 @@
     line-height: 62px;
     text-align: left;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text .case-studies-subtitle {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text .case-studies-subtitle {
     margin-top: 23px;
     max-width: 309px;
     color: #15141b;
@@ -554,57 +558,60 @@
     line-height: 28px;
     text-align: left;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text .case-studies-view-all {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text .case-studies-view-all {
     margin-top: 76px;
     position: static;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-text .case-studies-view-all .arrow-image {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-text .case-studies-view-all .arrow-image {
     margin-left: 21px;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel {
     padding-bottom: 267px;
     display: flex;
     justify-content: center;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .slick-prev:before {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .slick-prev:before {
     content: url("./assets/images/st_leftarrow.svg");
     position: absolute;
     top: 280px;
-    left: 800px;
+    left: 630px;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .slick-next:before {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .slick-next:before {
     content: url("./assets/images/st_rightarrow.svg");
     position: absolute;
     top: 280px;
-    left: -58px;
+    left: -240px;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card {
     padding-right: 10px;
-  }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image {
     position: relative;
+  }
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image {
     margin-top: 0px;
     max-width: 444px;
     height: 762px;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: fill;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
     position: absolute;
     top: 610px;
-    margin-left: 63px;
+    left: 63px;
     color: #ffffff;
     font-size: 32px;
     font-weight: 400;
     line-height: 32px;
+    margin-left: 0;
   }
-  .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-subtitle {
+  .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-subtitle {
     position: absolute;
     top: 659px;
     max-width: 305px;
-    margin-left: 63px;
+    left: 63px;
+    margin-left: 0;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 15px;

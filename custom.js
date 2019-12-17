@@ -1,7 +1,7 @@
 $(document).ready(function () {
     
     $('.js-case-studies-carousel').slick({
-        slidesToShow: 2,
+        slidesToShow: 2.5,
         arrows: true,
         slidesToScroll: 1,
         infinite: false,
@@ -26,7 +26,7 @@ $(document).ready(function () {
     });
 
     $('.js-skeptics-speak-image-carousel').slick({
-        slidesToShow: 2,
+        slidesToShow: 3,
         arrows: true,
         slidesToScroll: 1,
         infinite: false,

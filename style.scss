@@ -528,104 +528,111 @@
 
     @media (min-width: 1200px) {
         background-color: #ffffff;
-        .case-studies-wrapper {
-            margin-top: 83px;
-            position: relative;
-            //  &::before {
-            //     content: url('./assets/images/Arrow_desktop_bottom.svg');
-            //     position: absolute;
-            //     top: 0px;
-            //     left: 64px;
-            // } 
-            .case-studies-text {
-                margin-top: 295px;
-                max-width: 311px;
-                .case-studies-label {
-                    color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 28px;
-                    text-align: left;
-                }
-                .case-studies-title {
-                    max-width: 203px;
-                    margin-top: 2px;
-                    color: #15141b;
-                    font-family: 'Catamaran', sans-serif;
-                    font-size: 52px;
-                    line-height: 62px;
-                    text-align: left;
-                }
-                .case-studies-subtitle {
-                    margin-top: 23px;
-                    max-width: 309px;
-                    color: #15141b;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 28px;
-                    text-align: left;
-                }
-                .case-studies-view-all {
-                    margin-top: 76px;
-                    position: static;
-                    .arrow-image {
-                        margin-left: 21px;
+        .custom-container {
+            margin-right: 0;
+            padding-right: 0;
+            .case-studies-wrapper {
+                margin-top: 83px;
+                position: relative;
+                //  &::before {
+                //     content: url('./assets/images/Arrow_desktop_bottom.svg');
+                //     position: absolute;
+                //     top: 0px;
+                //     left: 64px;
+                // } 
+                .case-studies-text {
+                    margin-top: 295px;
+                    max-width: 311px;
+                    .case-studies-label {
+                        color: #ed4e08;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: left;
                     }
-                }
-            }
-            .case-studies-carousel {
-                padding-bottom: 267px;
-                display: flex;
-                justify-content: center;
-                .slick-prev {
-                    &:before {
-                        content: url('./assets/images/st_leftarrow.svg');
-                        position: absolute;
-                        top: 280px;
-                        left: 800px;
+                    .case-studies-title {
+                        max-width: 203px;
+                        margin-top: 2px;
+                        color: #15141b;
+                        font-family: 'Catamaran', sans-serif;
+                        font-size: 52px;
+                        line-height: 62px;
+                        text-align: left;
                     }
-                }
-                .slick-next {
-                    &:before {
-                        content: url('./assets/images/st_rightarrow.svg');
-                        position: absolute;
-                        top: 280px;
-                        left: -58px;
+                    .case-studies-subtitle {
+                        margin-top: 23px;
+                        max-width: 309px;
+                        color: #15141b;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: left;
                     }
-                }
-                .carousel-card {
-                    padding-right: 10px;
-                    .card-carousel-image {
-                        position: relative;
-                        margin-top: 0px;
-                        max-width: 444px;
-                        height: 762px;
-                        img {
-                            width: 100%;
-                            height: auto;
+                    .case-studies-view-all {
+                        margin-top: 76px;
+                        position: static;
+                        .arrow-image {
+                            margin-left: 21px;
                         }
                     }
-                    .card-carousel-title {
-                        position: absolute;
-                        top: 610px;
-                        margin-left: 63px;
-                        color: #ffffff;
-                        font-size: 32px;
-                        font-weight: 400;
-                        line-height: 32px;
+                }
+                .case-studies-carousel {
+                    padding-bottom: 267px;
+                    display: flex;
+                    justify-content: center;
+                    .slick-prev {
+                        &:before {
+                            content: url('./assets/images/st_leftarrow.svg');
+                            position: absolute;
+                            top: 280px;
+                            left: 630px;
+                        }
                     }
-                     .card-carousel-subtitle {
-                        position: absolute;
-                        top: 659px;
-                        max-width: 305px;
-                        margin-left: 63px;
-                        color: #ffffff;
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 15px;
-                        font-weight: 300;
-                        line-height: 24px;
+                    .slick-next {
+                        &:before {
+                            content: url('./assets/images/st_rightarrow.svg');
+                            position: absolute;
+                            top: 280px;
+                            left: -240px;
+                        }
+                    }
+                    .carousel-card {
+                        padding-right: 10px;
+                        position: relative;
+                        .card-carousel-image {
+                            margin-top: 0px;
+                            max-width: 444px;
+                            height: 762px ;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: fill;
+                            }
+                        }
+                        .card-carousel-title {
+                            position: absolute;
+                            top: 610px;
+                            left: 63px;
+                            color: #ffffff;
+                            font-size: 32px;
+                            font-weight: 400;
+                            line-height: 32px;
+                            margin-left: 0;
+                        }
+                         .card-carousel-subtitle {
+                            position: absolute;
+                            top: 659px;
+                            max-width: 305px;
+                            left: 63px;
+                            margin-left: 0;
+                            color: #ffffff;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 24px;
+                        }
                     }
                 }
             }
