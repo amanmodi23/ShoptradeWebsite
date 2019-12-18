@@ -593,7 +593,7 @@
   }
   .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: fill;
   }
   .case-studies-section .custom-container .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
@@ -618,35 +618,152 @@
     font-weight: 300;
     line-height: 24px;
   }
-  .case-studies-section .background-gray {
+}
+
+.chemistry-bind-us-section {
+  background-color: #f8f8f8;
+  margin-top: 107px;
+}
+.chemistry-bind-us-section .custom-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.chemistry-bind-us-section .office-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-60px);
+}
+.chemistry-bind-us-section .office-wrapper .shoptrade-office-image {
+  max-width: 379px;
+  height: auto;
+  overflow: hidden;
+  order: 2;
+}
+.chemistry-bind-us-section .office-wrapper .shoptrade-office-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper {
+  order: 1;
+}
+.chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-label {
+  color: #ed4e08;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-title {
+  max-width: 241px;
+  color: #15141b;
+  font-family: "Catamaran", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-top: -28px;
+  text-align: center;
+}
+.chemistry-bind-us-section .shoptrade-detail-text {
+  color: #15141b;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin: -39px auto 0 auto;
+  padding: 0 15px 28px 15px;
+}
+@media (min-width: 768px) {
+  .chemistry-bind-us-section {
     background-color: #f8f8f8;
-    height: 768px;
-    position: relative;
+    margin-top: 206px;
   }
-  .case-studies-section .background-gray .office-wrapper {
+  .chemistry-bind-us-section .custom-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .chemistry-bind-us-section .office-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateY(-155px);
+  }
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-image {
+    max-width: 100%;
+    height: auto;
+    order: 2;
+  }
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-image img {
+    width: 100%;
+    height: auto;
+  }
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper {
+    order: 1;
+  }
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-label {
+    color: #ed4e08;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-title {
+    max-width: 309px;
+    color: #15141b;
+    font-family: "Catamaran", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .chemistry-bind-us-section .shoptrade-detail-text {
+    color: #15141b;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+    max-width: 584px;
+    margin: -100px auto 0 auto;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .chemistry-bind-us-section {
+    background-color: #f8f8f8;
+    margin-top: 267px;
+  }
+  .chemistry-bind-us-section .office-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    position: absolute;
-    top: -116px;
+    transform: translateY(-115px);
   }
-  .case-studies-section .background-gray .office-wrapper .shoptrade-office-image {
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-image {
     max-width: 1040px;
     max-height: 624px;
     order: 1;
   }
-  .case-studies-section .background-gray .office-wrapper .shoptrade-office-image img {
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-image img {
     width: 100%;
     height: auto;
   }
-  .case-studies-section .background-gray .office-wrapper .shoptrade-office-text-wrapper {
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper {
     order: 2;
     position: relative;
     top: 0;
     left: 0;
   }
-  .case-studies-section .background-gray .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-label {
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-label {
     color: #ed4e08;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -655,7 +772,7 @@
     margin-top: 188px;
     text-align: left;
   }
-  .case-studies-section .background-gray .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-title {
+  .chemistry-bind-us-section .office-wrapper .shoptrade-office-text-wrapper .shoptrade-office-title {
     max-width: 241px;
     color: #15141b;
     font-family: "Catamaran", sans-serif;
@@ -666,10 +783,9 @@
     margin-bottom: 0px;
     text-align: left;
   }
-  .case-studies-section .background-gray .shoptrade-detail-text {
-    position: absolute;
-    top: 588px;
-    margin: 0px auto 0px 155px;
+  .chemistry-bind-us-section .shoptrade-detail-text {
+    margin: -34px auto;
+    padding-bottom: 74px;
     color: #15141b;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -706,17 +822,16 @@
   display: none;
 }
 .service-section .service-cards-wrapper {
+  display: none;
+}
+.service-section .service-list-wrapper {
   display: flex;
-  background-image: url("./assets/images/st_backgroundimage.jpg");
-  background-repeat: no-repeat;
-  background-position: left 170px;
+  flex-direction: row;
+  overflow-x: scroll;
+  list-style-type: none;
+  padding: 0;
 }
-.service-section .service-cards-wrapper .first-set-cards {
-  margin-top: 190px;
-}
-.service-section .service-cards-wrapper .first-set-cards .card-1 {
-  margin-top: 20px;
-  margin-right: 16px;
+.service-section .service-list-wrapper .service-cards-mobile-ipad {
   width: 209px;
   height: 332px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
@@ -725,22 +840,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-left: 46px;
+  margin: 28px 0px 12px 15px;
 }
-.service-section .service-cards-wrapper .first-set-cards .card-1 .card-1-text {
-  max-width: 176px;
-  color: #15141b;
+.service-section .service-list-wrapper .service-cards-mobile-ipad .card-text {
+  margin-left: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 700;
   line-height: 27px;
+  font-weight: 700;
 }
-.service-section .service-cards-wrapper .first-set-cards .bottom-card {
-  opacity: 0.7;
-  box-shadow: none;
+.service-section .service-list-wrapper .service-cards-mobile-ipad .card-image {
+  width: 44px;
+  height: 41px;
+  margin-left: 30px;
 }
-.service-section .service-cards-wrapper .first-set-cards .bottom-card-image {
-  opacity: 0.05;
+.service-section .service-list-wrapper .service-cards-mobile-ipad .card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.service-section .view-all-cards {
+  text-align: center;
 }
 @media (min-width: 768px) {
   .service-section {
@@ -769,78 +889,9 @@
     display: none;
   }
   .service-section .service-cards-wrapper {
-    display: flex;
-    background-image: none;
-  }
-  .service-section .service-cards-wrapper .first-set-cards {
-    margin-top: 0;
-  }
-  .service-section .service-cards-wrapper .first-set-cards .card-1 {
-    margin-top: 20px;
-    margin-right: 16px;
-    width: 222px;
-    height: 341px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 46px;
-  }
-  .service-section .service-cards-wrapper .first-set-cards .card-1 .card-1-text {
-    max-width: 176px;
-    color: #15141b;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
-  }
-  .service-section .service-cards-wrapper .first-set-cards .card-1 .card-1-image img {
-    max-width: 44px;
-    height: 41px;
-  }
-  .service-section .service-cards-wrapper .first-set-cards .bottom-card {
-    /* opacity: 0.7;
-    box-shadow: none; */
     display: none;
   }
-  .service-section .service-cards-wrapper .first-set-cards .bottom-card-image {
-    opacity: 0.05;
-  }
-  .service-section .service-cards-wrapper .second-set-cards {
-    margin-top: 0px;
-  }
-  .service-section .service-cards-wrapper .second-set-cards .card-2 {
-    margin-top: 20px;
-    width: 222px;
-    height: 341px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 46px;
-  }
-  .service-section .service-cards-wrapper .second-set-cards .card-2 .card-2-text {
-    max-width: 176px;
-    color: #15141b;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
-  }
-  .service-section .service-cards-wrapper .second-set-cards .card-2 .card-2-image img {
-    max-width: 44px;
-    height: 41px;
-  }
-  .service-section .service-cards-wrapper .second-set-cards .top-card {
-    /* box-shadow: none;
-    opacity: 0.4;
-    height: 225px;
-    justify-content: flex-end;
-    padding-bottom: 40px; */
+  .service-section .view-all-cards {
     display: none;
   }
 }
@@ -969,226 +1020,241 @@
   .service-section .service-cards-wrapper .second-set-cards .top-card-text {
     opacity: 0;
   }
+  .service-section .service-list-wrapper {
+    display: none;
+  }
   .service-section .view-all-cards {
     display: none;
   }
 }
 
 .skeptics-speak-section {
-  overflow: hidden;
-}
-.skeptics-speak-section .main-heading {
-  text-align: center;
-}
-.skeptics-speak-section .main-heading .main-title {
-  color: #15141b;
-  font-family: "Catamaran", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 26px;
-}
-.skeptics-speak-section .main-heading .main-subtitle {
-  color: #15141b;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper {
-  margin-top: 22px;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .skeptics-speak-image {
-  max-width: 263px;
-  height: 335px;
-  position: relative;
-  overflow: hidden;
-  margin: 0px auto;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .skeptics-speak-image .main-image {
-  width: 100%;
-  height: 100%;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .skeptics-speak-image .play-button-image {
-  position: absolute;
-  top: 268px;
-  left: 195px;
-  max-width: 45px;
-  max-height: 45px;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper {
-  position: absolute;
-  top: -72px;
-  left: 22px;
-  z-index: 1;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-name {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-designation {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 19px;
-}
-.skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-comment {
-  text-align: center;
-  margin-top: 30px;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-}
-.skeptics-speak-section .stats-area {
-  background-color: #f8f8f8;
-  padding-top: 220px;
-  padding-bottom: 33px;
-  margin-top: -200px;
-  z-index: -1;
-}
-.skeptics-speak-section .stats-area .stats-card {
-  max-width: 136px;
-  height: 128px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  padding-top: 25px;
-  margin-bottom: 10px;
-  margin-left: 6px;
-}
-.skeptics-speak-section .stats-area .stats-card .stats {
-  margin: 0 auto;
-}
-.skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
-  color: #ed4e08;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 33px;
-  position: relative;
-}
-.skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
-  content: "";
-  position: absolute;
-  border: 1px solid #9f9f9f;
-  top: 45px;
-  left: 0;
-  width: 18px;
-  height: 1px;
-}
-.skeptics-speak-section .stats-area .stats-card .stats .stats-text {
-  padding-top: 25px;
-  color: #625c5c;
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 12px;
-  max-width: 106px;
-}
-@media (min-width: 768px) {
-  .skeptics-speak-section .main-heading {
-    text-align: center;
+  display: none;
+  /* overflow: hidden;
+  .main-heading {
+      text-align: center;
+      .main-title {
+          color: #15141b;
+          font-family: 'Catamaran', sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 26px;
+      }
+      .main-subtitle {
+          color: #15141b;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;               
+      }
   }
-  .skeptics-speak-section .main-heading .main-title {
-    color: #15141b;
-    font-family: "Catamaran", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 26px;
-  }
-  .skeptics-speak-section .main-heading .main-subtitle {
-    color: #15141b;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image .main-image {
-    max-width: 223px;
-    height: 324px;
-    position: relative;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image .play-button-image {
-    position: absolute;
-    top: 268px;
-    left: 195px;
-    max-width: 45px;
-    max-height: 45px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper {
-    position: absolute;
-    top: -72px;
-    left: 22px;
-    z-index: 1;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-name {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-designation {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 19px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-comment {
-    text-align: center;
-    margin-top: 30px;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-  }
-  .skeptics-speak-section .stats-area {
-    background-color: #f8f8f8;
-    padding-top: 220px;
-    padding-bottom: 60px;
-    margin-top: -200px;
-    z-index: -1;
-  }
-  .skeptics-speak-section .stats-area .stats-card {
-    max-width: 164px;
-    height: 158px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding-top: 29px;
-  }
-  .skeptics-speak-section .stats-area .stats-card .stats {
-    margin: 0 auto;
-  }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
-    color: #ed4e08;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 35px;
-    position: relative;
-  }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
-    content: "";
-    position: absolute;
-    border: 1px solid #9f9f9f;
-    top: 46px;
-    left: 0;
-    width: 20px;
-    height: 1px;
-  }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-text {
-    color: #625c5c;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
-    max-width: 127px;
-    padding-top: 24px;
-  }
+      .skeptics-speak-wrapper{ 
+          .skeptics-speak-image-wrapper {
+              margin-top: 22px;
+              .skeptics-speak-image {
+                  max-width: 263px;
+                  height: 335px;
+                  position: relative;
+                  overflow: hidden;
+                  margin: 0px auto;
+                  .main-image {
+                      width: 100%;
+                      height: 100%;
+                  }
+                  .play-button-image {
+                      position: absolute;
+                      top: 268px;
+                      left: 195px;
+                      max-width: 45px;
+                      max-height: 45px;
+                  }
+              }
+          }
+          .skeptics-speak-text-wrapper {
+              .skeptics-speak-name-designation-wrapper {
+                  position: absolute;
+                  top: -72px;
+                  left: 22px;
+                  z-index: 1;
+                  .skeptics-speak-name {
+                      font-family: 'Roboto', sans-serif;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 19px;
+                  }
+                  .skeptics-speak-designation {
+                      font-family: 'Roboto', sans-serif;
+                      font-size: 12px;
+                      font-weight: 400;
+                      font-style: italic;
+                      line-height: 19px;
+                  }
+              }
+              .skeptics-speak-comment {
+                  text-align: center;
+                  margin-top: 30px;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 28px;
+              }
+          }
+      }
+  .stats-area {
+      background-color: #f8f8f8;
+      padding-top: 220px;
+      padding-bottom: 33px;
+      margin-top: -200px;
+      z-index: -1;
+       .stats-card {
+           max-width: 136px;
+           height: 128px;
+           border-radius: 10px;
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           padding-top: 25px;
+           margin-bottom: 10px;
+           margin-left: 6px;
+           .stats {
+               margin: 0 auto;
+               .stats-figures {
+                  color: #ed4e08;
+                  font-size: 32px;
+                  font-weight: 700;
+                  line-height: 33px;
+                  position: relative;
+                  &::after {
+                      content: '';
+                      position: absolute;
+                      border: 1px solid #9f9f9f;
+                      top: 45px;
+                      left: 0;
+                      width: 18px;
+                      height: 1px;
+                  }
+              }
+              .stats-text {
+                  padding-top: 25px;
+                  color: #625c5c;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 10px;
+                  font-weight: 700;
+                  line-height: 12px;
+                  max-width: 106px;
+              }
+           }
+       }
+   }
+
+   @media (min-width: 768px) {
+      .main-heading {
+          text-align: center;
+          .main-title {
+              color: #15141b;
+              font-family: 'Catamaran', sans-serif;
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 26px;
+          }
+          .main-subtitle {
+              color: #15141b;
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 22px;               
+          }
+      }
+          .skeptics-speak-wrapper{ 
+              .skeptics-speak-image {
+                  .main-image {
+                      max-width: 223px;
+                      height: 324px;
+                      position: relative;
+                  }
+                  .play-button-image {
+                      position: absolute;
+                      top: 268px;
+                      left: 195px;
+                      max-width: 45px;
+                      max-height: 45px;
+                  }
+              }
+              .skeptics-speak-text-wrapper {
+                  .skeptics-speak-name-designation-wrapper {
+                      position: absolute;
+                      top: -72px;
+                      left: 22px;
+                      z-index: 1;
+                      .skeptics-speak-name {
+                          font-family: 'Roboto', sans-serif;
+                          font-size: 16px;
+                          font-weight: 400;
+                          line-height: 19px;
+                      }
+                      .skeptics-speak-designation {
+                          font-family: 'Roboto', sans-serif;
+                          font-size: 12px;
+                          font-weight: 400;
+                          font-style: italic;
+                          line-height: 19px;
+                      }
+                  }
+                  .skeptics-speak-comment {
+                      text-align: center;
+                      margin-top: 30px;
+                      font-family: 'Roboto', sans-serif;
+                      font-size: 18px;
+                      font-weight: 500;
+                      line-height: 28px;
+                  }
+              }
+          }
+      .stats-area {
+          background-color: #f8f8f8;
+          padding-top: 220px;
+          padding-bottom: 60px;
+          margin-top: -200px;
+          z-index: -1;
+           .stats-card {
+               max-width: 164px;
+               height: 158px;
+               border-radius: 10px;
+               background-color: #ffffff;
+               display: flex;
+               flex-direction: column;
+               padding-top: 29px;
+               .stats {
+                   margin: 0 auto;
+                  .stats-figures {
+                      color: #ed4e08;
+                      font-size: 35px;
+                      font-weight: 400;
+                      line-height: 35px;
+                      position: relative;
+                      &::after {
+                          content: '';
+                          position: absolute;
+                          border: 1px solid #9f9f9f;
+                          top: 46px;
+                          left: 0;
+                          width: 20px;
+                          height: 1px;
+                      }
+                  }
+                  .stats-text {
+                      color: #625c5c;
+                      font-family: 'Roboto', sans-serif;
+                      font-size: 12px;
+                      font-weight: 700;
+                      line-height: 18px;
+                      max-width: 127px;
+                      padding-top: 24px;
+                  }
+               }
+           }
+       }
+   } */
 }
 @media (min-width: 1200px) {
   .skeptics-speak-section {
@@ -1218,6 +1284,10 @@
     width: 100%;
     margin-top: 52px;
     padding-bottom: 255px;
+    position: relative;
+  }
+  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper {
+    position: absolute;
   }
   .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-comment {
     color: #15141b;
@@ -1253,6 +1323,23 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    /* .slick-active {
+        width: unset !important;
+        margin-right: 16px;
+    } */
+    /* .main-image {
+        max-width: 329px;
+        height: 460px;
+        position: relative;
+        //margin-left: 15px;
+    } */
+    /* .play-button-image {
+        position: absolute;
+        top: 385px;
+        left: 270px;
+        max-width: 75px;
+        height: 75px;
+    } */
   }
   .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-prev:before {
     content: url("./assets/images/st_leftarrow.svg");
@@ -1266,18 +1353,21 @@
     top: 0px;
     left: 0px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .main-image {
-    max-width: 329px;
+  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-active .skeptics-speak-image {
+    width: 329px !important;
     height: 460px;
-    position: relative;
-    margin-left: 15px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .play-button-image {
-    position: absolute;
-    top: 385px;
-    left: 270px;
-    max-width: 75px;
-    height: 75px;
+  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-active .skeptics-speak-image .main-image {
+    width: 100%;
+    height: 100%;
+  }
+  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-current .skeptics-speak-image {
+    width: 444px !important;
+    height: 560px;
+  }
+  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-current .skeptics-speak-image .main-image {
+    width: 100%;
+    height: 100%;
   }
   .skeptics-speak-section .stats-area {
     background-color: #f8f8f8;
@@ -1653,41 +1743,71 @@
   position: relative;
 }
 .final-section footer .footer-wrapper {
-  position: absolute;
-  top: -15px;
-  max-width: 63px;
-  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.final-section footer .footer-wrapper img {
+.final-section footer .footer-wrapper .shoptrade-image-wrapper {
+  width: 63px;
+  height: 63px;
+  transform: translateY(-21px);
+}
+.final-section footer .footer-wrapper .shoptrade-image-wrapper img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-.final-section footer .footer-area {
-  padding-top: 82px;
+.final-section footer .footer-wrapper .shopify-plus-wrapper {
+  width: 73px;
+  height: auto;
 }
-.final-section footer .footer-area .header-title {
+.final-section footer .footer-wrapper .shopify-plus-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.final-section footer .custom-class {
+  padding-top: 35px;
+}
+.final-section footer .custom-class a {
+  display: inline-block;
   margin-top: 40px;
+}
+.final-section footer .custom-class .card-link-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.final-section footer .custom-class .header-title {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  position: relative;
 }
-.final-section footer .footer-area .newsletter-label {
+.final-section footer .custom-class .address {
+  margin-top: 0;
+}
+.final-section footer .custom-class .follow-us {
+  margin-top: 40px;
+}
+.final-section footer .custom-class .newsletter-label {
   max-width: 223px;
+  margin-top: 40px;
 }
-.final-section footer .footer-area .header-collection {
+.final-section footer .custom-class .header-collection {
   margin-top: 13px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 50;
   line-height: 28px;
-  padding-bottom: 51px;
 }
-.final-section footer .footer-area .header-collection p {
+.final-section footer .custom-class .header-collection p {
   margin: 0px;
 }
-.final-section footer .footer-area .newsletter {
+.final-section footer .custom-class .newsletter {
   border-radius: 5px;
   background-color: #2e2e2e;
   padding: 17px 24px;
@@ -1697,7 +1817,7 @@
   line-height: 28px;
   color: #a698ff;
 }
-.final-section footer .footer-area .newsletter img {
+.final-section footer .custom-class .newsletter img {
   margin-left: 20px;
 }
 .final-section footer .base-footer-wrapper {
@@ -1706,19 +1826,12 @@
 .final-section footer .base-footer-wrapper .copyrights {
   opacity: 0.5;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 28px;
 }
-.final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-1 {
-  max-width: 73px;
-  height: 15px;
-  position: absolute;
-  left: 220px;
-  top: -1525px;
-}
-.final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-2 {
+.final-section footer .base-footer-wrapper .base-shopify-images {
   display: none;
 }
 @media (min-width: 768px) {
@@ -1727,39 +1840,69 @@
     position: relative;
   }
   .final-section footer .footer-wrapper {
-    position: absolute;
-    top: -33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .final-section footer .footer-wrapper img {
-    max-width: 104px;
-    height: 104px;
+  .final-section footer .footer-wrapper .shoptrade-image-wrapper {
+    width: 94px;
+    height: 94px;
+    transform: translateY(-21px);
   }
-  .final-section footer .footer-area {
-    padding-top: 123px;
+  .final-section footer .footer-wrapper .shoptrade-image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
-  .final-section footer .footer-area .header-title {
-    margin-top: 40px;
+  .final-section footer .footer-wrapper .shopify-plus-wrapper {
+    width: 73px;
+    height: auto;
+  }
+  .final-section footer .footer-wrapper .shopify-plus-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .final-section footer .custom-class {
+    padding-top: 50px;
+  }
+  .final-section footer .custom-class a {
+    display: inline-block;
+    margin-top: 0px;
+  }
+  .final-section footer .custom-class .header-title {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
   }
-  .final-section footer .footer-area .newsletter-label {
+  .final-section footer .custom-class .newsletter-label {
     max-width: 223px;
+    margin-top: 0;
   }
-  .final-section footer .footer-area .header-collection {
+  .final-section footer .custom-class .footer-collapse-arrow {
+    display: none;
+  }
+  .final-section footer .custom-class .follow-us {
+    margin-top: 0px;
+  }
+  .final-section footer .custom-class .collapse-image {
+    display: none;
+  }
+  .final-section footer .custom-class .header-collection {
     margin-top: 13px;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 50;
     line-height: 28px;
+    margin-bottom: 40px;
   }
-  .final-section footer .footer-area .header-collection p {
+  .final-section footer .custom-class .header-collection p {
     margin: 0px;
   }
-  .final-section footer .footer-area .newsletter {
+  .final-section footer .custom-class .newsletter {
     border-radius: 5px;
     background-color: #2e2e2e;
     padding: 17px 24px;
@@ -1768,8 +1911,9 @@
     font-family: "Roboto", sans-serif;
     line-height: 28px;
     color: #a698ff;
+    margin-bottom: 0;
   }
-  .final-section footer .footer-area .newsletter img {
+  .final-section footer .custom-class .newsletter img {
     margin-left: 80px;
   }
   .final-section footer .base-footer-wrapper {
@@ -1787,17 +1931,6 @@
   }
   .final-section footer .base-footer-wrapper .base-shopify-images {
     position: relative;
-  }
-  .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-1 {
-    max-width: 73px;
-    height: 15px;
-    position: absolute;
-    left: 495px;
-    top: -690px;
-  }
-  .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-2 {
-    max-width: 100px;
-    height: 21px;
     display: none;
   }
 }
@@ -1807,26 +1940,36 @@
     position: relative;
   }
   .final-section footer .footer-wrapper {
-    position: absolute;
-    top: -32px;
-    margin-left: 0px;
+    display: inline-block;
   }
-  .final-section footer .footer-wrapper img {
-    max-width: 99px;
+  .final-section footer .footer-wrapper .shoptrade-image-wrapper {
+    width: 99px;
     height: 99px;
+    transform: translateY(-21px);
   }
-  .final-section footer .footer-area {
-    padding-top: 150px;
+  .final-section footer .footer-wrapper .shoptrade-image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .final-section footer .footer-wrapper .shopify-plus-wrapper {
+    display: none;
+  }
+  .final-section footer .custom-class {
+    padding-top: 54px;
     margin-left: 0px;
   }
-  .final-section footer .footer-area .header-title {
+  .final-section footer .custom-class .overwrite-col {
+    padding: 0;
+  }
+  .final-section footer .custom-class .header-title {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
   }
-  .final-section footer .footer-area .header-collection {
+  .final-section footer .custom-class .header-collection {
     margin-top: 13px;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -1834,10 +1977,10 @@
     font-weight: 50;
     line-height: 28px;
   }
-  .final-section footer .footer-area .header-collection p {
+  .final-section footer .custom-class .header-collection p {
     margin: 0px;
   }
-  .final-section footer .footer-area .newsletter {
+  .final-section footer .custom-class .newsletter {
     border-radius: 5px;
     background-color: #2e2e2e;
     padding: 17px 24px;
@@ -1847,7 +1990,7 @@
     line-height: 28px;
     color: #a698ff;
   }
-  .final-section footer .footer-area .newsletter img {
+  .final-section footer .custom-class .newsletter img {
     margin-left: 57px;
   }
   .final-section footer .base-footer-wrapper {
@@ -1867,12 +2010,11 @@
   }
   .final-section footer .base-footer-wrapper .base-shopify-images {
     position: relative;
+    display: inline;
   }
   .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-1 {
     max-width: 100px;
     height: 21px;
-    left: 0;
-    top: 0;
   }
   .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-2 {
     max-width: 100px;

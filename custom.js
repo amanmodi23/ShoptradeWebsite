@@ -1,5 +1,17 @@
 $(document).ready(function () {
-    
+   /*  $(window).resize(function () {
+        if (window >= 768) {
+            $(".collapse").addClass("show")
+        }
+        
+    }) */
+
+    var windowSize = $(window).width();
+    if (windowSize >= 768) {
+        $(".myClass").addClass("show");
+        $(".card-link-custom").css("pointer-events","none")
+    }
+
     $('.js-case-studies-carousel').slick({
         slidesToShow: 2.5,
         arrows: true,
