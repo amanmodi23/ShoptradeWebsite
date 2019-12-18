@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(assets/fonts/roboto.regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(assets/fonts/roboto.bold.ttf);
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(assets/fonts/roboto.medium.ttf);
+}
+@font-face {
+    font-family: "Catamaran EB";
+    src: url(assets/fonts/catamaran.extrabold.ttf);
+}
 .main-section {
     background-color: #000000;
     header {
@@ -36,7 +52,7 @@
             align-items: center;
             .banner-label {
                 color: #ed4e08;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 28px;
@@ -44,7 +60,7 @@
             }
             .banner-title {
                 color: #ffffff;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 24px;
                 font-weight: 700;
                 line-height: 28px;
@@ -53,7 +69,7 @@
             .banner-subtitle {
                 margin-top: 10px;
                 color: #ffffff;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 18px;
@@ -99,13 +115,13 @@
                     font-size: 15px;
                     line-height: 28px;
                     color: #ED4E08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     text-align: left;
                 }
                 .banner-title {
                     width: 344px;
                     color: #ffffff;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 32px;
                     line-height: 42px;
                     margin-top: 2px;
@@ -113,7 +129,7 @@
                 }
                 .banner-subtitle {
                     margin-top: 21px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 28px;
@@ -162,7 +178,7 @@
                     padding-left: 58px;
                     padding-top: 17px;
                     color: white;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 17px;
                     font-weight: 400;
                     line-height: 28px;
@@ -199,13 +215,13 @@
                     font-size: 18px;
                     line-height: 28px;
                     color: #ED4E08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     text-align: left;
                 }
                 .banner-title {
                     width: 559px;
                     color: #ffffff;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 52px;
                     line-height: 62px;
                     margin-top: 2px;
@@ -213,7 +229,7 @@
                 }
                 .banner-subtitle {
                     margin-top: 32px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
@@ -251,7 +267,7 @@
         .case-studies-text {
             .case-studies-label {
                 color: #ed4e08;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 28px;
@@ -260,7 +276,7 @@
             .case-studies-title {
                 margin-top: -20px;
                 color: #15141b;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 24px;
                 line-height: 62px;
                 text-align: center;
@@ -269,7 +285,7 @@
                 margin-top: -10px;
                 // max-width: 309px;
                 color: #15141b;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 18px;
@@ -279,7 +295,7 @@
                 position: absolute;
                 top: 536px;
                 left: 40%;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 12px;
                 font-weight: 500;
                 line-height: 28px;
@@ -314,7 +330,7 @@
                     font-size: 19px;
                     font-weight: 700;
                     line-height: 20px;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                 }
                  .card-carousel-subtitle {
                     position: absolute;
@@ -322,69 +338,12 @@
                     max-width: 203px;
                     margin-left: 68px;
                     color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 14px;
                     font-weight: 100;
                     line-height: 18px;
                 }
             }
-        }
-    }
-    .background-gray {
-        position: relative;
-        background-color: #f8f8f8;
-        .office-wrapper {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .shoptrade-office-image {
-                max-width: 379px;
-                max-height: 233px;
-                overflow: hidden;
-                img {
-                    width: 100%;
-                    height: auto;
-                    object-fit: cover;
-                }
-                order: 2;
-            }
-            .shoptrade-office-text-wrapper {
-                position: absolute;
-                top: -50px;
-                order: 1;
-                .shoptrade-office-label {
-                    color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 12px;
-                    font-weight: 400;
-                    line-height: 28px;
-                    text-align: center;
-                }
-                .shoptrade-office-title {
-                    max-width: 241px;
-                    color: #15141b;
-                    font-family: 'Catamaran', sans-serif;
-                    font-size: 18px;
-                    font-weight: 700;
-                    line-height: 62px;
-                    margin-top: -28px;
-                    text-align: center;
-                }
-            }
-        }
-        .shoptrade-detail-text {
-            color: #15141b;
-            font-family: 'Roboto', sans-serif;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 22px;
-            max-width: 282px;
-            text-align: center;
-            margin-top: 21px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-bottom: 28px;
         }
     }
 
@@ -398,7 +357,7 @@
                 margin: auto;
                 .case-studies-label {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 28px;
@@ -406,7 +365,7 @@
                 }
                 .case-studies-title {
                     color: #15141b;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 32px;
                     line-height: 62px;
                     text-align: center;
@@ -414,7 +373,7 @@
                 }
                 .case-studies-subtitle {
                     color: #15141b;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 18px;
@@ -424,7 +383,7 @@
                     position: absolute;
                     top: 730px;
                     left: 306px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 15px;
                     line-height: 28px;
                 }
@@ -460,68 +419,12 @@
                         max-width: 241px;
                         margin-left: 30px;
                         color: #ffffff;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 14px;
                         font-weight: 300;
                         line-height: 24px;
                     }
                 }
-            }
-        }
-        .background-gray {
-            position: relative;
-            background-color: #f8f8f8;
-            .office-wrapper {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                .shoptrade-office-image {
-                    max-width: 673px;
-                    max-height: 423px;
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-                    order: 2;
-                }
-                .shoptrade-office-text-wrapper {
-                    order: 1;
-                    position: absolute;
-                    top: -80px;
-                    left: auto;
-                    .shoptrade-office-label {
-                        color: #ed4e08;
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 12px;
-                        font-weight: 400;
-                        line-height: 28px;
-                        text-align: center;
-                    }
-                    .shoptrade-office-title {
-                        max-width: 309px;
-                        color: #15141b;
-                        font-family: 'Catamaran', sans-serif;
-                        font-size: 32px;
-                        font-weight: 700;
-                        line-height: 62px;
-                        margin-top: -18px;
-                        margin-bottom: 20px;
-                        text-align: center;
-                    }
-                }
-            }
-            .shoptrade-detail-text {
-                color: #15141b;
-                font-family: 'Roboto', sans-serif;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 22px;
-                max-width: 584px;
-                text-align: center;
-                margin: 48px auto 0px auto;
-                padding-bottom: 50px;
             }
         }
     }
@@ -545,7 +448,7 @@
                     max-width: 311px;
                     .case-studies-label {
                         color: #ed4e08;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 28px;
@@ -555,7 +458,7 @@
                         max-width: 203px;
                         margin-top: 2px;
                         color: #15141b;
-                        font-family: 'Catamaran', sans-serif;
+                        font-family: "Catamaran EB";
                         font-size: 52px;
                         line-height: 62px;
                         text-align: left;
@@ -564,7 +467,7 @@
                         margin-top: 23px;
                         max-width: 309px;
                         color: #15141b;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 28px;
@@ -628,7 +531,7 @@
                             left: 63px;
                             margin-left: 0;
                             color: #ffffff;
-                            font-family: 'Roboto', sans-serif;
+                            font-family: "Roboto Regular";
                             font-size: 15px;
                             font-weight: 300;
                             line-height: 24px;
@@ -670,7 +573,7 @@
             order: 1;
             .shoptrade-office-label {
                 color: #ed4e08;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 28px;
@@ -679,7 +582,7 @@
             .shoptrade-office-title {
                 max-width: 241px;
                 color: #15141b;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 18px;
                 font-weight: 700;
                 line-height: 62px;
@@ -690,7 +593,7 @@
     }
     .shoptrade-detail-text {
         color: #15141b;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto Regular";
         font-size: 14px;
         font-weight: 400;
         line-height: 22px;
@@ -724,7 +627,7 @@
                 order: 1;
                 .shoptrade-office-label {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 28px;
@@ -733,7 +636,7 @@
                 .shoptrade-office-title {
                     max-width: 309px;
                     color: #15141b;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 32px;
                     font-weight: 700;
                     line-height: 62px;
@@ -745,7 +648,7 @@
         }
         .shoptrade-detail-text {
             color: #15141b;
-            font-family: 'Roboto', sans-serif;
+            font-family: "Roboto Regular";
             font-size: 15px;
             font-weight: 400;
             text-align: center;
@@ -780,7 +683,7 @@
                 left: 0;
                 .shoptrade-office-label {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
@@ -790,7 +693,7 @@
                 .shoptrade-office-title {
                     max-width: 241px;
                     color: #15141b;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 52px;
                     font-weight: 700;
                     line-height: 62px;
@@ -804,7 +707,7 @@
             margin: -34px auto;
             padding-bottom: 74px;
             color: #15141b;
-            font-family: 'Roboto', sans-serif;
+            font-family: "Roboto Regular";
             font-size: 18px;
             font-weight: 400;
             text-align: center;
@@ -820,13 +723,13 @@
         text-align: center;
         .service-label {
             color: #ed4e08;
-            font-family: 'Roboto', sans-serif;
+            font-family: "Roboto Regular";
             font-size: 12px;
             font-weight: 400;
             line-height: 28px;
         }
         .service-title {
-            font-family: 'Catamaran', sans-serif;
+            font-family: "Catamaran EB";
             font-size: 24px;
             font-weight: 700;
             line-height: 26px;
@@ -885,14 +788,14 @@
             .service-text-wrapper {
                 .service-label {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 28px;
                     text-align: center;
                 }
                 .service-title {
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 32px;
                     font-weight: 700;
                     line-height: 42px;
@@ -925,7 +828,7 @@
                 justify-content: center;
                 .service-label {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
@@ -933,7 +836,7 @@
                 }
                 .service-title {
                     max-width: 454px;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 52px;
                     font-weight: 700;
                     line-height: 62px;
@@ -943,7 +846,7 @@
                     display: block;
                     margin-top: 29px;
                     max-width: 559px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 32px;
@@ -953,7 +856,7 @@
                     display: block;
                     margin-top: 68px;
                     color: #000000;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
@@ -982,7 +885,7 @@
                         .card-1-text {
                             max-width: 176px;
                             color: #15141b;
-                            font-family: 'Roboto', sans-serif;
+                            font-family: "Roboto Regular";
                             font-size: 24px;
                             font-weight: 700;
                             line-height: 32px;
@@ -1018,7 +921,7 @@
                         .card-2-text {
                             max-width: 176px;
                             color: #15141b;
-                            font-family: 'Roboto', sans-serif;
+                            font-family: "Roboto Regular";
                             font-size: 24px;
                             font-weight: 700;
                             line-height: 32px;
@@ -1058,7 +961,7 @@
         text-align: center;
         .main-title {
             color: #15141b;
-            font-family: 'Catamaran', sans-serif;
+            font-family: "Catamaran EB";
             font-size: 24px;
             font-weight: 700;
             line-height: 26px;
@@ -1100,13 +1003,13 @@
                     left: 22px;
                     z-index: 1;
                     .skeptics-speak-name {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 19px;
                     }
                     .skeptics-speak-designation {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 12px;
                         font-weight: 400;
                         font-style: italic;
@@ -1116,7 +1019,7 @@
                 .skeptics-speak-comment {
                     text-align: center;
                     margin-top: 30px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 500;
                     line-height: 28px;
@@ -1160,7 +1063,7 @@
                 .stats-text {
                     padding-top: 25px;
                     color: #625c5c;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 10px;
                     font-weight: 700;
                     line-height: 12px;
@@ -1175,7 +1078,7 @@
             text-align: center;
             .main-title {
                 color: #15141b;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 32px;
                 font-weight: 700;
                 line-height: 26px;
@@ -1210,13 +1113,13 @@
                         left: 22px;
                         z-index: 1;
                         .skeptics-speak-name {
-                            font-family: 'Roboto', sans-serif;
+                            font-family: "Roboto Regular";
                             font-size: 16px;
                             font-weight: 400;
                             line-height: 19px;
                         }
                         .skeptics-speak-designation {
-                            font-family: 'Roboto', sans-serif;
+                            font-family: "Roboto Regular";
                             font-size: 12px;
                             font-weight: 400;
                             font-style: italic;
@@ -1226,7 +1129,7 @@
                     .skeptics-speak-comment {
                         text-align: center;
                         margin-top: 30px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 18px;
                         font-weight: 500;
                         line-height: 28px;
@@ -1267,7 +1170,7 @@
                     }
                     .stats-text {
                         color: #625c5c;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 12px;
                         font-weight: 700;
                         line-height: 18px;
@@ -1285,7 +1188,7 @@
             text-align: center;
             .main-title {
                 color: #15141b;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 52px;
                 font-weight: 700;
                 line-height: 62px;
@@ -1310,7 +1213,7 @@
                 position: absolute;
                 .skeptics-speak-comment {
                     color: #15141b;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 32px;
                     font-weight: 500;
                     line-height: 42px;
@@ -1325,13 +1228,13 @@
                     top: 0;
                     left: 0;
                     .skeptics-speak-name {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 18px;
                         font-weight: 400;
                         line-height: 24px;
                     }
                     .skeptics-speak-designation {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 14px;
                         font-weight: 400;
                         font-style: italic;
@@ -1438,7 +1341,7 @@
                     .stats-text {
                         padding-top: 55px;
                         color: #625c5c;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: "Roboto Regular";
                         font-size: 18px;
                         font-weight: 700;
                         line-height: 26px;
@@ -1462,7 +1365,7 @@
             .coo-label {
                 max-width: 282px;
                 color: #000000;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 22px;
@@ -1471,7 +1374,7 @@
             .coo-title {
                 margin-top: 20px;
                 color: #000000;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 20px;
                 font-weight: 700;
                 line-height: 28px;
@@ -1479,7 +1382,7 @@
             }
             .coo-subtitle {
                 color: #9f9f9f;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 28px;
@@ -1525,7 +1428,7 @@
             margin-bottom: 43px;
             .subarea-subtitle {
                 color: #ed4e08;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 28px;
@@ -1533,7 +1436,7 @@
             }
             .subarea-title {
                 color: #000000;
-                font-family: 'Catamaran', sans-serif;
+                font-family: "Catamaran EB";
                 font-size: 24px;
                 font-weight: 700;
                 line-height: 28px;
@@ -1548,7 +1451,7 @@
                 margin-left: auto;
                 padding: 13px 41px;
                 color: #ffffff;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 10px;
                 font-weight: 500;
                 max-width: 156px;
@@ -1572,7 +1475,7 @@
                 .coo-label {
                     max-width: 404px;
                     color: #000000;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 15px;
                     font-weight: 400;
                     line-height: 24px;
@@ -1581,7 +1484,7 @@
                 .coo-title {
                     margin-top: 36px;
                     color: #000000;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 20px;
                     font-weight: 700;
                     line-height: 28px;
@@ -1590,7 +1493,7 @@
                 .coo-subtitle {
                     margin-top: 10px;
                     color: #9f9f9f;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 28px;
@@ -1635,7 +1538,7 @@
                 margin-bottom: 65px;
                 .subarea-subtitle {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 15px;
                     font-weight: 400;
                     line-height: 14px;
@@ -1643,7 +1546,7 @@
                 .subarea-title {
                     margin-top: 10px;
                     color: #000000;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 31px;
@@ -1653,12 +1556,12 @@
                     background: #ED4E08;
                     border-radius: 5px;
                     padding: 18px 47px;
-                    max-width: 200px;
+                    max-width: 212px;
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 32px;
                     color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 15px;
                     font-weight: 500;
                     line-height: 13px;
@@ -1681,7 +1584,7 @@
                 .coo-label {
                     max-width: 674px;
                     color: #000000;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 32px;
@@ -1690,7 +1593,7 @@
                 .coo-title {
                     margin-top: 36px;
                     color: #000000;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 24px;
                     font-weight: 700;
                     line-height: 28px;
@@ -1699,7 +1602,7 @@
                 .coo-subtitle {
                     margin-top: 10px;
                     color: #9f9f9f;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 28px;
@@ -1744,14 +1647,14 @@
                 margin-bottom: 65px;
                 .subarea-subtitle {
                     color: #ed4e08;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 28px;
                 }
                 .subarea-title {
                     color: #000000;
-                    font-family: 'Catamaran', sans-serif;
+                    font-family: "Catamaran EB";
                     font-size: 52px;
                     font-weight: 700;
                     line-height: 62px;
@@ -1766,7 +1669,7 @@
                     margin-right: auto;
                     margin-top: 32px;
                     color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 15px;
                     font-weight: 500;
                     line-height: 28px;
@@ -1818,7 +1721,7 @@
             }
             .header-title {
                 color: #ffffff;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 font-size: 24px;
                 font-weight: 700;
                 line-height: 28px;
@@ -1852,7 +1755,7 @@
                 padding: 17px 24px;
                 text-align: left;
                 font-size: 14px;
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto Regular";
                 line-height: 28px;
                 color: #a698ff;
                 img {
@@ -1913,7 +1816,7 @@
                 }
                 .header-title {
                     color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 24px;
                     font-weight: 700;
                     line-height: 28px;
@@ -1949,7 +1852,7 @@
                     padding: 17px 24px;
                     text-align: left;
                     font-size: 14px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     line-height: 28px;
                     color: #a698ff;
                     margin-bottom: 0;
@@ -1962,8 +1865,6 @@
                 margin-top: 2px;
                 //padding-bottom: 64px;
                 .copyrights {
-                    position: absolute;
-                    top: -50px;
                     opacity: 0.5;
                     color: #ffffff;
                     font-family: Roboto;
@@ -2007,7 +1908,7 @@
                 }
                 .header-title {
                     color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     font-size: 24px;
                     font-weight: 700;
                     line-height: 28px;
@@ -2029,7 +1930,7 @@
                     padding: 17px 24px;
                     text-align: left;
                     font-size: 14px;
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto Regular";
                     line-height: 28px;
                     color: #a698ff;
                     img {
@@ -2069,5 +1970,59 @@
             }
         }
     }
-    
+  
+}
+@media (min-width: 768px) {
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 220px;
+        left: 92px;
+        width: 100%;
+        text-align: left;
+        .image-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 208px;
+            .icon-image {
+                margin-right: 40px;
+            }
+        }
+      }
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #ffffff;
+        font-family: "Catamaran EB";
+        font-size: 36px;
+        line-height: 62px;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #ffffff;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #676767;
+        font-size: 50px;
+      }
 }

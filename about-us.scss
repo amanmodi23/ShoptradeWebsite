@@ -735,26 +735,58 @@
         background-color: #000000;
         position: relative;
         .footer-wrapper {
-            position: absolute;
-            top: -15px;
-            max-width: 63px;
-            height: 65px;
-            img {
-                width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .shoptrade-image-wrapper {
+                width: 63px;
+                height: 63px;
+                transform: translateY(-21px);
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+            .shopify-plus-wrapper {
+                width: 73px;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
             }
         }
-        .footer-area {
-            padding-top: 82px;
-            .header-title {
+        .custom-class {
+            padding-top: 35px;
+            a {
+                display: inline-block;
                 margin-top: 40px;
+            }
+            .card-link-custom {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .header-title {
                 color: #ffffff;
                 font-family: 'Roboto', sans-serif;
                 font-size: 24px;
                 font-weight: 700;
                 line-height: 28px;
+                position: relative;
+                // margin-top: 40px;
+            }
+            .address {
+                margin-top: 0;
+            }
+            .follow-us {
+                margin-top: 40px;
             }
             .newsletter-label {
                 max-width: 223px;
+                margin-top: 40px;
             }
             .header-collection {
                 margin-top: 13px;
@@ -763,7 +795,6 @@
                 font-size: 14px;
                 font-weight: 50;
                 line-height: 28px;
-                padding-bottom: 51px;
                 p {
                     margin: 0px;
                 }
@@ -788,22 +819,13 @@
             .copyrights {
                 opacity: 0.5;
                 color: #ffffff;
-                font-family: Roboto;
+                font-family: "Roboto", sans-serif;
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 28px;
             }
             .base-shopify-images {
-                .footer-shopify-1 {
-                    max-width: 73px;
-                    height: 15px;
-                    position: absolute;
-                    left: 220px;
-                    top: -1525px;
-                }
-                .footer-shopify-2 {
-                    display: none;
-                }
+                display: none;
             }
         }
     }
@@ -813,17 +835,36 @@
             background-color: #000000;
             position: relative;
             .footer-wrapper {
-                position: absolute;
-                top: -33px;
-                img {
-                    max-width: 104px;
-                    height: 104px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .shoptrade-image-wrapper {
+                    width: 94px;
+                    height: 94px;
+                    transform: translateY(-21px);
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+                .shopify-plus-wrapper {
+                    width: 73px;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
                 }
             }
-            .footer-area {
-                padding-top: 123px;
+            .custom-class {
+                padding-top: 50px;
+                a {
+                    display: inline-block;
+                    margin-top: 0px;
+                }
                 .header-title {
-                    margin-top: 40px;
                     color: #ffffff;
                     font-family: 'Roboto', sans-serif;
                     font-size: 24px;
@@ -832,6 +873,16 @@
                 }
                 .newsletter-label {
                     max-width: 223px;
+                    margin-top: 0;
+                }
+                .footer-collapse-arrow {
+                    display: none;
+                }
+                .follow-us {
+                    margin-top: 0px;
+                }
+                .collapse-image {
+                    display: none;
                 }
                 .header-collection {
                     margin-top: 13px;
@@ -840,6 +891,7 @@
                     font-size: 14px;
                     font-weight: 50;
                     line-height: 28px;
+                    margin-bottom: 40px;
                     p {
                         margin: 0px;
                     }
@@ -853,8 +905,9 @@
                     font-family: 'Roboto', sans-serif;
                     line-height: 28px;
                     color: #a698ff;
+                    margin-bottom: 0;
                     img {
-                        margin-left: 90px;
+                        margin-left: 80px;
                     }
                 }
             }
@@ -862,8 +915,6 @@
                 margin-top: 2px;
                 //padding-bottom: 64px;
                 .copyrights {
-                    position: absolute;
-                    top: -50px;
                     opacity: 0.5;
                     color: #ffffff;
                     font-family: Roboto;
@@ -873,18 +924,7 @@
                 }
                 .base-shopify-images {
                     position: relative;
-                    .footer-shopify-1 {
-                        max-width: 73px;
-                        height: 15px;
-                        position: absolute;
-                        left: 495px;
-                        top: -690px;
-                    }
-                    .footer-shopify-2 {
-                        max-width: 100px;
-                        height: 21px;
-                        display: none;
-                    }
+                    display: none;
                 }
             }
         }
@@ -895,17 +935,27 @@
             background-color: #000000;
             position: relative;
             .footer-wrapper {
-                position: absolute;
-                top: -32px;
-                margin-left: 0px;
-                img {
-                    max-width: 99px;
+                display: inline-block;
+                .shoptrade-image-wrapper {
+                    width: 99px;
                     height: 99px;
+                    transform: translateY(-21px);
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+                .shopify-plus-wrapper {
+                    display: none;
                 }
             }
-            .footer-area {
-                padding-top: 150px;
+            .custom-class{
+                padding-top: 54px;
                 margin-left: 0px;
+                .overwrite-col {
+                    padding: 0;
+                }
                 .header-title {
                     color: #ffffff;
                     font-family: 'Roboto', sans-serif;
@@ -954,18 +1004,10 @@
                 }
                 .base-shopify-images {
                     position: relative;
+                    display: inline;
                     .footer-shopify-1 {
                         max-width: 100px;
                         height: 21px;
-                        left: 0;
-                        top: 0;
-                        &::after {
-                            content: 'a';
-                            border: 1px solid red;
-                            width: 2px;
-                            height: 10px;
-                            position: absolute;
-                        }
                     }
                     
                     .footer-shopify-2 {
@@ -978,5 +1020,5 @@
             }
         }
     }
-    
+  
 }
