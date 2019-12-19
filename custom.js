@@ -5,6 +5,13 @@ $(document).ready(function () {
         }
         
     }) */
+  
+    $('.slick-carousel').slick({
+      arrows: true,
+      centerPadding: "0px",
+      slidesToShow: 3,
+      infinite: false
+    });
 
     var windowSize = $(window).width();
     if (windowSize >= 768) {

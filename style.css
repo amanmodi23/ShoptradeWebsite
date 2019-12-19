@@ -186,6 +186,7 @@
     color: #D19900;
   }
   .main-section header .menu .work-with-us {
+    border: 0;
     background: #ED4E08 0% 0% no-repeat padding-box;
     border-radius: 5px;
     margin-left: 52px;
@@ -932,232 +933,43 @@
 }
 
 .skeptics-speak-section {
-  display: none;
-  /* overflow: hidden;
-  .main-heading {
-      text-align: center;
-      .main-title {
-          color: #15141b;
-          font-family: "Catamaran EB";
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 26px;
-      }
-      .main-subtitle {
-          color: #15141b;
-          font-family: Roboto;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 22px;               
-      }
+  overflow: hidden;
+}
+.skeptics-speak-section .main-heading {
+  text-align: center;
+}
+.skeptics-speak-section .main-heading .main-title {
+  color: #15141b;
+  font-family: "Catamaran EB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.skeptics-speak-section .main-heading .main-subtitle {
+  color: #15141b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+@media (min-width: 768px) {
+  .skeptics-speak-section .main-heading {
+    text-align: center;
   }
-      .skeptics-speak-wrapper{ 
-          .skeptics-speak-image-wrapper {
-              margin-top: 22px;
-              .skeptics-speak-image {
-                  max-width: 263px;
-                  height: 335px;
-                  position: relative;
-                  overflow: hidden;
-                  margin: 0px auto;
-                  .main-image {
-                      width: 100%;
-                      height: 100%;
-                  }
-                  .play-button-image {
-                      position: absolute;
-                      top: 268px;
-                      left: 195px;
-                      max-width: 45px;
-                      max-height: 45px;
-                  }
-              }
-          }
-          .skeptics-speak-text-wrapper {
-              .skeptics-speak-name-designation-wrapper {
-                  position: absolute;
-                  top: -72px;
-                  left: 22px;
-                  z-index: 1;
-                  .skeptics-speak-name {
-                      font-family: "Roboto Regular";
-                      font-size: 16px;
-                      font-weight: 400;
-                      line-height: 19px;
-                  }
-                  .skeptics-speak-designation {
-                      font-family: "Roboto Regular";
-                      font-size: 12px;
-                      font-weight: 400;
-                      font-style: italic;
-                      line-height: 19px;
-                  }
-              }
-              .skeptics-speak-comment {
-                  text-align: center;
-                  margin-top: 30px;
-                  font-family: "Roboto Regular";
-                  font-size: 18px;
-                  font-weight: 500;
-                  line-height: 28px;
-              }
-          }
-      }
-  .stats-area {
-      background-color: #f8f8f8;
-      padding-top: 220px;
-      padding-bottom: 33px;
-      margin-top: -200px;
-      z-index: -1;
-       .stats-card {
-           max-width: 136px;
-           height: 128px;
-           border-radius: 10px;
-           background-color: #ffffff;
-           display: flex;
-           flex-direction: column;
-           padding-top: 25px;
-           margin-bottom: 10px;
-           margin-left: 6px;
-           .stats {
-               margin: 0 auto;
-               .stats-figures {
-                  color: #ed4e08;
-                  font-size: 32px;
-                  font-weight: 700;
-                  line-height: 33px;
-                  position: relative;
-                  &::after {
-                      content: '';
-                      position: absolute;
-                      border: 1px solid #9f9f9f;
-                      top: 45px;
-                      left: 0;
-                      width: 18px;
-                      height: 1px;
-                  }
-              }
-              .stats-text {
-                  padding-top: 25px;
-                  color: #625c5c;
-                  font-family: "Roboto Regular";
-                  font-size: 10px;
-                  font-weight: 700;
-                  line-height: 12px;
-                  max-width: 106px;
-              }
-           }
-       }
-   }
-
-   @media (min-width: 768px) {
-      .main-heading {
-          text-align: center;
-          .main-title {
-              color: #15141b;
-              font-family: "Catamaran EB";
-              font-size: 32px;
-              font-weight: 700;
-              line-height: 26px;
-          }
-          .main-subtitle {
-              color: #15141b;
-              font-family: Roboto;
-              font-size: 14px;
-              font-weight: 400;
-              line-height: 22px;               
-          }
-      }
-          .skeptics-speak-wrapper{ 
-              .skeptics-speak-image {
-                  .main-image {
-                      max-width: 223px;
-                      height: 324px;
-                      position: relative;
-                  }
-                  .play-button-image {
-                      position: absolute;
-                      top: 268px;
-                      left: 195px;
-                      max-width: 45px;
-                      max-height: 45px;
-                  }
-              }
-              .skeptics-speak-text-wrapper {
-                  .skeptics-speak-name-designation-wrapper {
-                      position: absolute;
-                      top: -72px;
-                      left: 22px;
-                      z-index: 1;
-                      .skeptics-speak-name {
-                          font-family: "Roboto Regular";
-                          font-size: 16px;
-                          font-weight: 400;
-                          line-height: 19px;
-                      }
-                      .skeptics-speak-designation {
-                          font-family: "Roboto Regular";
-                          font-size: 12px;
-                          font-weight: 400;
-                          font-style: italic;
-                          line-height: 19px;
-                      }
-                  }
-                  .skeptics-speak-comment {
-                      text-align: center;
-                      margin-top: 30px;
-                      font-family: "Roboto Regular";
-                      font-size: 18px;
-                      font-weight: 500;
-                      line-height: 28px;
-                  }
-              }
-          }
-      .stats-area {
-          background-color: #f8f8f8;
-          padding-top: 220px;
-          padding-bottom: 60px;
-          margin-top: -200px;
-          z-index: -1;
-           .stats-card {
-               max-width: 164px;
-               height: 158px;
-               border-radius: 10px;
-               background-color: #ffffff;
-               display: flex;
-               flex-direction: column;
-               padding-top: 29px;
-               .stats {
-                   margin: 0 auto;
-                  .stats-figures {
-                      color: #ed4e08;
-                      font-size: 35px;
-                      font-weight: 400;
-                      line-height: 35px;
-                      position: relative;
-                      &::after {
-                          content: '';
-                          position: absolute;
-                          border: 1px solid #9f9f9f;
-                          top: 46px;
-                          left: 0;
-                          width: 20px;
-                          height: 1px;
-                      }
-                  }
-                  .stats-text {
-                      color: #625c5c;
-                      font-family: "Roboto Regular";
-                      font-size: 12px;
-                      font-weight: 700;
-                      line-height: 18px;
-                      max-width: 127px;
-                      padding-top: 24px;
-                  }
-               }
-           }
-       }
-   } */
+  .skeptics-speak-section .main-heading .main-title {
+    color: #15141b;
+    font-family: "Catamaran EB";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  .skeptics-speak-section .main-heading .main-subtitle {
+    color: #15141b;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
 }
 @media (min-width: 1200px) {
   .skeptics-speak-section {
@@ -1180,105 +992,144 @@
     font-weight: 400;
     line-height: 32px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-top: 52px;
-    padding-bottom: 255px;
-    position: relative;
+  .skeptics-speak-section .slick-slider {
+    margin-left: 172px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper {
-    position: absolute;
+  .skeptics-speak-section .slick-slide {
+    width: auto !important;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-comment {
-    color: #15141b;
-    font-family: "Roboto Regular";
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 42px;
-    text-align: left;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper {
-    color: #15141b;
-    width: 149px;
-    height: 45px;
-    margin-top: 33px;
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-name {
-    font-family: "Roboto Regular";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-text-wrapper .skeptics-speak-name-designation-wrapper .skeptics-speak-designation {
-    font-family: "Roboto Regular";
-    font-size: 14px;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 24px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    /* .slick-active {
-        width: unset !important;
-        margin-right: 16px;
-    } */
-    /* .main-image {
-        max-width: 329px;
-        height: 460px;
-        position: relative;
-        //margin-left: 15px;
-    } */
-    /* .play-button-image {
-        position: absolute;
-        top: 385px;
-        left: 270px;
-        max-width: 75px;
-        height: 75px;
-    } */
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-prev:before {
-    content: url("./assets/images/st_leftarrow.svg");
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-next:before {
-    content: url("./assets/images/st_rightarrow.svg");
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-active .skeptics-speak-image {
+  .skeptics-speak-section .slick-slide .slide-content {
+    padding-right: 10px;
+    background: #fff;
     width: 329px !important;
-    height: 460px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-active .skeptics-speak-image .main-image {
+  .skeptics-speak-section .slick-slide .slide-content .slick-image {
+    width: 329px;
+    height: auto;
+  }
+  .skeptics-speak-section .slick-slide .slide-content .slick-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    object-fit: cover;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-current .skeptics-speak-image {
+  .skeptics-speak-section .slick-slide .slide-content .slick-text {
+    position: absolute;
+    top: 0%;
+  }
+  .skeptics-speak-section .slick-current {
+    position: relative;
     width: 444px !important;
-    height: 560px;
   }
-  .skeptics-speak-section .skeptics-speak-wrapper .skeptics-speak-image-wrapper .slick-current .skeptics-speak-image .main-image {
+  .skeptics-speak-section .slick-current .slick-image {
+    width: 444px !important;
+    height: auto;
+  }
+  .skeptics-speak-section .slick-current .slick-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
-  .skeptics-speak-section .stats-area {
+}
+
+.stats-area-section .stats-area {
+  background-color: #f8f8f8;
+  padding-top: 220px;
+  padding-bottom: 33px;
+  margin-top: -200px;
+  z-index: -1;
+}
+.stats-area-section .stats-area .stats-card {
+  max-width: 136px;
+  height: 128px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+}
+.stats-area-section .stats-area .stats-card .stats {
+  margin: 0 auto;
+}
+.stats-area-section .stats-area .stats-card .stats .stats-figures {
+  color: #ed4e08;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 33px;
+  position: relative;
+}
+.stats-area-section .stats-area .stats-card .stats .stats-figures::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #9f9f9f;
+  top: 45px;
+  left: 0;
+  width: 18px;
+  height: 1px;
+}
+.stats-area-section .stats-area .stats-card .stats .stats-text {
+  padding-top: 25px;
+  color: #625c5c;
+  font-family: "Roboto Regular";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  max-width: 106px;
+}
+@media (min-width: 768px) {
+  .stats-area-section .stats-area {
+    background-color: #f8f8f8;
+    padding-top: 220px;
+    padding-bottom: 60px;
+    margin-top: -200px;
+    z-index: -1;
+  }
+  .stats-area-section .stats-area .stats-card {
+    max-width: 164px;
+    height: 158px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 29px;
+  }
+  .stats-area-section .stats-area .stats-card .stats {
+    margin: 0 auto;
+  }
+  .stats-area-section .stats-area .stats-card .stats .stats-figures {
+    color: #ed4e08;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+  }
+  .stats-area-section .stats-area .stats-card .stats .stats-figures::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #9f9f9f;
+    top: 46px;
+    left: 0;
+    width: 20px;
+    height: 1px;
+  }
+  .stats-area-section .stats-area .stats-card .stats .stats-text {
+    color: #625c5c;
+    font-family: "Roboto Regular";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    max-width: 127px;
+    padding-top: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .stats-area-section .stats-area {
     background-color: #f8f8f8;
     padding-top: 255px;
     padding-bottom: 60px;
     margin-top: -328px;
   }
-  .skeptics-speak-section .stats-area .stats-card {
+  .stats-area-section .stats-area .stats-card {
     max-width: 326px;
     height: 306px;
     border-radius: 10px;
@@ -1290,17 +1141,17 @@
     padding-top: 62px;
     margin: 0;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats {
+  .stats-area-section .stats-area .stats-card .stats {
     margin: 0 auto;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures {
+  .stats-area-section .stats-area .stats-card .stats .stats-figures {
     color: #ed4e08;
     font-size: 69px;
     font-weight: 400;
     line-height: 78px;
     position: relative;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-figures::after {
+  .stats-area-section .stats-area .stats-card .stats .stats-figures::after {
     content: "";
     border: 1px solid #9f9f9f;
     position: absolute;
@@ -1309,7 +1160,7 @@
     height: 2px;
     top: 103px;
   }
-  .skeptics-speak-section .stats-area .stats-card .stats .stats-text {
+  .stats-area-section .stats-area .stats-card .stats .stats-text {
     padding-top: 55px;
     color: #625c5c;
     font-family: "Roboto Regular";
@@ -1627,9 +1478,10 @@
   }
   .shopify-coo-section .coo-subarea .subarea-wrapper .subarea-work-with-us {
     background: #ED4E08;
+    border: 0;
     border-radius: 5px;
     padding: 18px 47px;
-    max-width: 200px;
+    max-width: 240px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
@@ -1709,6 +1561,10 @@
 }
 .final-section footer .custom-class .header-collection p {
   margin: 0px;
+}
+.final-section footer .custom-class .header-collection a {
+  color: #ffffff;
+  margin: 0;
 }
 .final-section footer .custom-class .newsletter {
   border-radius: 5px;
@@ -1925,6 +1781,58 @@
   }
 }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 123px;
+  left: 45px;
+  width: 100%;
+  text-align: left;
+}
+.overlay-content .image-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 85px;
+}
+.overlay-content .image-wrapper .icon-image {
+  margin-right: 40px;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Catamaran EB";
+  font-size: 24px;
+  line-height: 62px;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ffffff;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-family: "Courier New", Courier, monospace;
+  color: #676767;
+  font-size: 50px;
+}
+
 @media (min-width: 768px) {
   .overlay {
     height: 100%;
@@ -1948,14 +1856,13 @@
   .overlay-content .image-wrapper {
     display: flex;
     justify-content: flex-start;
-    margin-top: 208px;
+    margin-top: 120px;
   }
   .overlay-content .image-wrapper .icon-image {
     margin-right: 40px;
   }
 
   .overlay a {
-    padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #ffffff;
