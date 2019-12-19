@@ -850,7 +850,7 @@
 }
 .final-section footer .custom-class .header-title {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Regular";
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -877,13 +877,17 @@
 .final-section footer .custom-class .header-collection p {
   margin: 0px;
 }
+.final-section footer .custom-class .header-collection a {
+  color: #ffffff;
+  margin: 0;
+}
 .final-section footer .custom-class .newsletter {
   border-radius: 5px;
   background-color: #2e2e2e;
   padding: 17px 24px;
   text-align: left;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Regular";
   line-height: 28px;
   color: #a698ff;
 }
@@ -942,7 +946,7 @@
   }
   .final-section footer .custom-class .header-title {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Regular";
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -978,7 +982,7 @@
     padding: 17px 24px;
     text-align: left;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Regular";
     line-height: 28px;
     color: #a698ff;
     margin-bottom: 0;
@@ -1032,7 +1036,7 @@
   }
   .final-section footer .custom-class .header-title {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Regular";
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -1054,7 +1058,7 @@
     padding: 17px 24px;
     text-align: left;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Regular";
     line-height: 28px;
     color: #a698ff;
   }

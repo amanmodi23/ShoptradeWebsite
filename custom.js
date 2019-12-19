@@ -12,6 +12,13 @@ $(document).ready(function () {
       slidesToShow: 3,
       infinite: false
     });
+  
+    $('.homeSlider').slick({
+      autoplay: false,
+      dots: true,
+      infinite: true,
+      arrows: false
+    });
 
     var windowSize = $(window).width();
     if (windowSize >= 768) {
