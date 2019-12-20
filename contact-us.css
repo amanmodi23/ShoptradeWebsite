@@ -105,6 +105,7 @@
   .contact-us-section .main-title h1 {
     font-size: 52px;
     line-height: 62px;
+    max-width: 500px;
   }
 }
 .contact-us-section .text-wrapper {
@@ -123,14 +124,14 @@
   width: 100%;
   height: auto;
   padding: 0 0 0 10px;
-  border: 1px solid #ffffff;
+  border: 1px solid #585858;
   background: #15141b;
 }
 .contact-us-section .text-wrapper .input-text::placeholder {
   color: #bababa;
 }
 .contact-us-section .text-wrapper .box {
-  border: 1px solid #ffffff;
+  border-radius: 0;
   position: relative;
 }
 .contact-us-section .text-wrapper .box::before {
@@ -156,6 +157,8 @@
   height: 52px;
   padding-top: 20px;
   background-color: #15141b;
+  border-radius: 0;
+  border-color: #585858;
 }
 .contact-us-section .radio-button-label {
   margin-top: 28px;

@@ -19,6 +19,18 @@ $(document).ready(function () {
       infinite: true,
       arrows: false
     });
+    $('.homeSlider2').slick({
+      autoplay: false,
+      dots: true,
+      infinite: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: "unslick"
+        }
+      ]
+    });
 
     var windowSize = $(window).width();
     if (windowSize >= 768) {
