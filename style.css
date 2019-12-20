@@ -1261,12 +1261,14 @@
   max-width: 214px;
   text-align: center;
 }
-.shopify-coo-section .coo-subarea .subarea-wrapper .subarea-work-with-us {
+.shopify-coo-section .coo-subarea .subarea-wrapper .subarea-button {
+  display: flex;
+  justify-content: center;
+}
+.shopify-coo-section .coo-subarea .subarea-wrapper .subarea-button .subarea-work-with-us {
   background: #ED4E08;
   border-radius: 5px;
   margin-top: 21px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 13px 41px;
   color: #ffffff;
   font-family: "Roboto Regular";
