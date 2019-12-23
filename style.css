@@ -14,6 +14,44 @@
   font-family: "Catamaran EB";
   src: url(assets/fonts/catamaran.extrabold.ttf);
 }
+@media (min-width: 1200px) {
+  .before-selector-pipe {
+    position: relative;
+  }
+  .before-selector-pipe:before {
+    content: "";
+    border: 1px solid #707070;
+    width: 1px;
+    height: 11px;
+    position: absolute;
+    top: 7px;
+    left: 35px;
+  }
+}
+
+.after-selector-top {
+  position: relative;
+}
+.after-selector-top::after {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  content: url("./assets/images/Arrow_desktop_bottom.svg");
+}
+@media (min-width: 768px) {
+  .after-selector-top::after {
+    left: 100%;
+    top: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  .after-selector-top::after {
+    content: url("./assets/images/st_longdownarrow.svg");
+    left: 63px;
+    top: 184px;
+  }
+}
+
 .main-section {
   background-color: #000000;
 }
@@ -145,8 +183,8 @@
   }
   .main-section .banner-wrapper .banner-image {
     margin-top: 0px;
-    max-width: 376px;
-    height: 382px;
+    max-width: 314px;
+    height: 311px;
   }
   .main-section .banner-wrapper .banner-image img {
     width: 100%;
@@ -197,7 +235,6 @@
   }
   .main-section .banner-wrapper {
     margin-top: 109px;
-    padding-bottom: 162px;
     position: relative;
     /* &::after {
         content: url('./assets/images/Arrow_Desktop_top.svg');
@@ -1618,6 +1655,8 @@
   .final-section footer .footer-wrapper .shopify-plus-wrapper {
     width: 73px;
     height: auto;
+    right: 68px;
+    position: relative;
   }
   .final-section footer .footer-wrapper .shopify-plus-wrapper img {
     width: 100%;
@@ -1683,7 +1722,7 @@
   .final-section footer .base-footer-wrapper .copyrights {
     opacity: 0.5;
     color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto Regular";
     font-size: 12px;
     font-weight: 400;
     line-height: 28px;
@@ -1778,7 +1817,6 @@
   .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-2 {
     max-width: 100px;
     height: 21px;
-    display: block;
     margin-left: 40px;
   }
 }

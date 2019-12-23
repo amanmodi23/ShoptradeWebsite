@@ -54,6 +54,21 @@ body h1 {
   }
 }
 
+@media (min-width: 1200px) {
+  .before-selector-pipe {
+    position: relative;
+  }
+  .before-selector-pipe:before {
+    content: "";
+    border: 1px solid #707070;
+    width: 1px;
+    height: 11px;
+    position: absolute;
+    top: 7px;
+    left: 35px;
+  }
+}
+
 .heading-h1 {
   font-family: "Catamaran EB";
   font-size: 24px;
@@ -288,6 +303,20 @@ body h1 {
 .method-section {
   background: #ffffff;
 }
+.method-section .tab-menu {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .method-section .tab-menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 98px 100px 0 100px;
+  }
+  .method-section .tab-menu .paragraph-p3 {
+    font-size: 20px;
+    font-family: "Roboto Bold";
+  }
+}
 .method-section .slick-slider, .method-section .slick-list, .method-section .slick-track {
   height: 100%;
 }
@@ -302,42 +331,35 @@ body h1 {
   height: 100%;
   object-fit: cover;
 }
-.method-section .slick-arrow,
 .method-section .slick-dots {
-  position: absolute;
-  z-index: 15;
+  width: 904px;
+  display: flex;
+  justify-content: center;
+  transform: translateX(25%);
 }
-.method-section .slick-arrow {
-  top: 50%;
+@media (min-width: 1200px) {
+  .method-section .slick-dots {
+    bottom: 90%;
+  }
 }
-.method-section .slick-arrow.slick-prev {
-  left: 0;
-}
-.method-section .slick-arrow.slick-next {
-  right: 0;
-}
-.method-section .slick-dots {
-  width: 100%;
-  bottom: 5% !important;
-  left: 0;
-  text-align: center;
+.method-section .slick-dots .slick-active button {
+  background-color: #ED4E08 !important;
 }
 .method-section .slick-dots button {
-  display: block;
-  width: 24px !important;
+  width: 100% !important;
   height: 2px !important;
   padding: 0 !important;
   border-radius: 7px !important;
   background-color: #CBCBCB !important;
   text-indent: -9999px;
   margin-right: 10px;
-  outline: none;
 }
-.method-section .slick-dots .slick-active button {
-  background-color: #ED4E08 !important;
+.method-section .slick-dots li {
+  width: 100% !important;
+  margin: 0 auto;
 }
 .method-section .method-wrapper {
-  padding-top: 50px;
+  padding-top: 168px;
 }
 .method-section .method-wrapper .overwrite-col-value {
   position: unset !important;
@@ -416,7 +438,7 @@ body h1 {
 @media (min-width: 1200px) {
   .method-section .method-wrapper .method-text {
     position: absolute;
-    top: 90px;
+    top: 208px;
     max-width: 500px;
   }
 }
@@ -1255,7 +1277,6 @@ body h1 {
   .final-section footer .base-footer-wrapper .base-shopify-images .footer-shopify-2 {
     max-width: 100px;
     height: 21px;
-    display: block;
     margin-left: 40px;
   }
 }

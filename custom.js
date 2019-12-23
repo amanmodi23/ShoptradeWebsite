@@ -24,6 +24,7 @@ $(document).ready(function () {
       dots: true,
       infinite: true,
       arrows: false,
+      // asNavFor: '.tab-menu',
       responsive: [
         {
           breakpoint: 1199,

@@ -14,6 +14,38 @@
     font-family: "Catamaran EB";
     src: url(assets/fonts/catamaran.extrabold.ttf);
 }
+.before-selector-pipe {
+    @media (min-width: 1200px) {
+        position: relative;
+    &:before {
+        content: '';
+        border: 1px solid #707070;
+        width: 1px;
+        height:11px;
+        position: absolute;
+        top: 7px;
+        left: 35px;
+    }
+    }
+}
+.after-selector-top {
+    position: relative;
+    &::after {
+        position: absolute;
+        left: 50%;
+        top: 40px;
+        content: url('./assets/images/Arrow_desktop_bottom.svg');
+        @media (min-width: 768px) {
+            left: 100%;
+            top: 140px;
+        }
+        @media (min-width: 1200px) {
+            content: url('./assets/images/st_longdownarrow.svg');
+            left: 63px;
+            top: 184px;
+        }
+    }
+}
 .main-section {
     background-color: #000000;
     header {
@@ -148,8 +180,8 @@
             }
             .banner-image {
                 margin-top: 0px;
-                max-width: 376px;
-                height: 382px;
+                max-width: 314px;
+                height: 311px;
                 img {
                     width: 100%;
                 }
@@ -201,7 +233,6 @@
         }
         .banner-wrapper{
             margin-top: 109px;
-            padding-bottom: 162px;
             position: relative;
             /* &::after {
                 content: url('./assets/images/Arrow_Desktop_top.svg');
@@ -1901,6 +1932,8 @@
                 .shopify-plus-wrapper {
                     width: 73px;
                     height: auto;
+                    right: 68px;
+                    position: relative;
                     img {
                         width: 100%;
                         height: auto;
@@ -1967,7 +2000,7 @@
                 .copyrights {
                     opacity: 0.5;
                     color: #ffffff;
-                    font-family: Roboto;
+                    font-family: "Roboto Regular";
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 28px;
@@ -2063,7 +2096,6 @@
                     .footer-shopify-2 {
                         max-width: 100px;
                         height: 21px;
-                        display: block;
                         margin-left: 40px;
                     }
                 }

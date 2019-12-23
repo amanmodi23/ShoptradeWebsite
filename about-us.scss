@@ -14,6 +14,42 @@
     font-family: "Catamaran EB";
     src: url(assets/fonts/catamaran.extrabold.ttf);
 }
+.before-selector-bottom {
+    position: relative;
+    &:before {
+        content: '';
+        background-image: url('./assets/images/Arrow_desktop_bottom.svg');
+        position: absolute;
+        width: 9px;
+        height: 63px;
+        left: 50%;
+        top: 65px;
+        z-index: 2;
+        @media (min-width: 768px) {
+            top: 107px;
+        }
+        @media (min-width: 1200px) {
+            left: 50px;
+            background-image: url(./assets/images/st_longdownarrow.svg);
+            height: 123px;
+            top: 75px;
+        }
+    }
+}
+.before-selector-pipe {
+    @media (min-width: 1200px) {
+        position: relative;
+    &:before {
+        content: '';
+        border: 1px solid #707070;
+        width: 1px;
+        height:11px;
+        position: absolute;
+        top: 7px;
+        left: 35px;
+    }
+    }
+}
 .heading-h1 {
     font-size: 24px;
     line-height: 28px;
@@ -148,7 +184,7 @@
                 .heading-h1 {
                     font-size: 52px;
                     line-height: 62px;
-                    max-width: 757px;
+                    max-width: 100%;
                     margin: 0 0;
                 }
             }
@@ -477,7 +513,7 @@
             max-width: 37px;
             height: 38px;
             overflow: hidden;
-            margin-left: 25px;
+            margin-left: 0px;
             margin-top: 20px;
             @media (min-width: 768px) {
                 max-width: 27px;
@@ -489,6 +525,7 @@
                 max-width: 59px;
                 height: 61px;
                 margin-top: 31px;
+                margin-left: 25px;
 
             }
             img {
@@ -496,31 +533,50 @@
                 height: 100%;
             }
         }
-        .image-text {
-            font-size: 14px;
-            line-height: 18px;
-            font-family: 'Catamaran', sans-serif;
-            color: #fff;
-            max-width: 139px;
-            margin-left: 25px;
-            margin-top: 27px;
-            padding-bottom: 20px;
-            @media (min-width: 1200px) {
-                max-width: 239px;
-                margin-top: 50px;
+        .text-image-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .image-text {
+                font-size: 14px;
+                line-height: 18px;
+                font-family: 'Catamaran', sans-serif;
+                color: #fff;
+                max-width: 139px;
+                margin-left: 0px;
+                margin-top: 27px;
+                padding-bottom: 20px;
+                @media (min-width: 1200px) {
+                    max-width: 239px;
+                    margin-top: 50px;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+                @media (min-width: 768px) {
+                    font-size: 12px;
+                    line-height: 15px;
+                    padding-bottom: 10px;
+                }
+                @media (min-width: 1200px) {
+                    font-size: 24px;
+                    line-height: 33px;
+                    padding-bottom: 51px;
+                    margin-left: 25px;
+                }
             }
-            p {
-                margin-bottom: 0;
-            }
-            @media (min-width: 768px) {
-                font-size: 12px;
-                line-height: 15px;
-                padding-bottom: 10px;
-            }
-            @media (min-width: 1200px) {
-                font-size: 24px;
-                line-height: 33px;
-                padding-bottom: 51px;
+            .arrow-image {
+                @media (min-width: 768px) {
+                    margin-right: 10px;
+                    width: 35px;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                @media (min-width: 1200px) {
+                    margin-right: 48px;
+                } 
             }
         }
         @media (min-width: 768px) {
@@ -578,11 +634,20 @@
 
 .leadership-section {
     margin-top: 44px;
+    background-image: url(./assets/images/ShopTrade/Leadership_section.svg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    background-size: 255px 341px;
+    background-position-x: right;
     @media (min-width: 768px) {
-        margin-top: 50px;
+        margin-top: 0;
+        background-position-y: 2px;
+        padding-top: 39px;
     }
     @media (min-width: 1200px) {
-        margin-top: 106px;
+        margin-top: 0px;
+        padding-top: 98px;
+        background-size: 691px 926px;
     }
     .leadership-title {
         text-align: center;
@@ -1026,4 +1091,13 @@
         }
     }
   
+}
+
+.image_src {
+    width: 691px;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
