@@ -16,102 +16,110 @@
     <section class="contact-us-section">
         <div class="container-fluid">
             <div class="main-title">
-                    <h1 class="heading-h1">Don't Be A Stranger. Just Say Hello!</h1>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-9 col-xl-5">
-                        <form>
-                            <div class="text-wrapper">
-                                <input type="text" placeholder="Company name" class="paragraph-p1 input-text"> 
+                <h1 class="heading-h1">Don't Be A Stranger. Just Say Hello!</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-9 col-xl-5">
+                    <form id="constact_us_form" data-parsley-validate nonvalidate>
+                        <div class="text-wrapper form-group">
+                            <input type="text" placeholder="Company name" class="paragraph-p1 input-text" id="companyName" name="CompanyName" required type="text"> 
+                        </div>
+                        <div class="text-wrapper form-group">
+                            <input type="text" placeholder="Name of the point of contact" class="paragraph-p1 input-text" id="name" name="PointOfContact" required type="text"> 
+                        </div>
+                        <div class="text-wrapper form-group">
+                            <input type="text" placeholder="Help us with your email address" class="paragraph-p1 input-text" id="email" name="Email" required type="email"> 
+                        </div>
+                        <div class="text-wrapper form-group">
+                            <input type="text" placeholder="What mobile number can we reach you at?" class="paragraph-p1 input-text" id="mobile" name="Mobile" required> 
+                        </div>
+                        <div class="text-wrapper form-group" required>
+                            <div class="box">
+                                <p class="paragraph-p2 budget-text">Budget</p>
+                                <select class="paragraph-p1" id="budget" name="Budget">
+                                    <option value="0">Select Range</option>
+                                    <option value="10000-20000">10000-20000</option>
+                                    <option value="20000-30000">20000-30000</option>
+                                    <option value="30000-40000">30000-40000</option>
+                                </select>
                             </div>
-                            <div class="text-wrapper">
-                                <input type="text" placeholder="Name of the point of contact" class="paragraph-p1 input-text"> 
-                            </div>
-                            <div class="text-wrapper">
-                                <input type="text" placeholder="Help us with your email address" class="paragraph-p1 input-text"> 
-                            </div>
-                            <div class="text-wrapper">
-                                <div class="box">
-                                    <p class="paragraph-p2 budget-text">Budget</p>
-                                    <select class="paragraph-p1">
-                                        <option value="0">Select Range</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="text-wrapper">
-                                <div class="box">
-                                    <p class="paragraph-p2 budget-text">Domain</p>
-                                    <select class="paragraph-p1">
+                        </div>
+                        <div class="text-wrapper form-group" required>
+                            <div class="box">
+                                <p class="paragraph-p2 budget-text">Domain</p>
+                                <div class="ui-select">
+                                    <select class="paragraph-p1" id="domain" name="Domain">
                                         <option value="0">Select</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
+                                        <option value="Design">Design</option>
+                                        <option value="Development">Development</option>
+                                        <option value="Custom">Custom</option>
                                     </select>
                                 </div>
                             </div>
-                                <div class="radio-button-label">
-                                    <p class="paragraph-p3">Brand/e-commerce Website(if you have any):</p>
-                                    <div class="radio-wrapper"> 
-                                        <div class="radio-1">
-                                            <input type="radio" value="yes"name="radiogroup" class="radio-boolean">
-                                            <span class="radio-name paragraph-p3">Yes</span>
-                                        </div>
-                                        <div class="radio-1">
-                                            <input type="radio" value="no"name="radiogroup" class="radio-boolean">
-                                            <span class="radio-name paragraph-p3">No</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="detail-text-wrapper">
-                                    <p class="paragraph-p3">
-                                        By submitting this form, you agree to receive promotional messages  
-                                        from ShopTrade about its products and services. You can unsubscribe at 
-                                        any time by clicking on the link at the bottom of our emails.
-                                    </p>
-                                </div>
-                                <div class="submit-button">
-                                    <p class="text-uppercase paragraph-p3">Submit</p>
-                                </div>
-                            </form>
                         </div>
-                        <div class="col-12 col-md-3 offset-xl-1 col-xl-6 custom-override-image">
-                            <div class="image-wrapper">
-                                <img src="./assets/images/45d71766662413.5b1e2ff6853b1.png" alt="">
-                            </div> 
+                        <div class="form-area">
+                            <textarea class="form-textarea" placeholder="Is there anything else you feel is important for us to know" id="extraData" name="AdditionalData" required rows="5"></textarea>
                         </div>
-                        <div class="col-12">
-                            <div class="enquiry-title">
-                                <p class="heading-h2">For any other enquiries, or just to say hello, get in touch and contact us.</p>
+                        <div class="radio-button-label">
+                            <p class="paragraph-p3">Brand/e-commerce Website(if you have any):</p>
+                            <div class="radio-wrapper"> 
+                                <div class="radio-1">
+                                    <input type="radio" value="Yes" name="radiogroup" class="radio-boolean">
+                                    <span class="radio-name paragraph-p3">Yes</span>
+                                </div>
+                                <div class="radio-1">
+                                    <input type="radio" value="No" name="radiogroup" class="radio-boolean">
+                                    <span class="radio-name paragraph-p3">No</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3">
-                            <p class="paragraph-p4">Phone</p>
-                            <p class="paragraph-p5">+1 123 456 789</p>
+                        <div class="detail-text-wrapper">
+                            <p class="paragraph-p3">
+                                By submitting this form, you agree to receive promotional messages  
+                                from ShopTrade about its products and services. You can unsubscribe at 
+                                any time by clicking on the link at the bottom of our emails.
+                            </p>
                         </div>
-                        <div class="col-12 offset-md-1 col-md-8">
-                            <p class="paragraph-p4">Enquiries</p>
-                            <p class="paragraph-p5">help@shoptrade.co</p>
+                        <div class="submit-button form-group">
+                            <input class="paragraph-p3" id="constact_us_form" type="submit" onclick="submitForm()">
                         </div>
-                        <div class="col-12 col-md-3">
-                            <p class="paragraph-p4">Address</p>
-                            <p class="paragraph-p5 address">
-                                376 Bathurst St
-                                #104 Toronto
-                                ON M5T 2S6, Canada
-                                </p>
+                    </form>
+                    </div>
+                    <div class="col-12 col-md-3 offset-xl-1 col-xl-6 custom-override-image">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/45d71766662413.5b1e2ff6853b1.png" alt="">
+                        </div> 
+                    </div>
+                    <div class="col-12">
+                        <div class="enquiry-title">
+                            <p class="heading-h2">For any other enquiries, or just to say hello, get in touch and contact us.</p>
                         </div>
-                        <div class="col-12 offset-md-1 col-md-3">
-                            <p class="paragraph-p4">Follow Us</p>
-                            <div class="social-links-wrapper">
-                                <img src="./assets/images/Group 33.svg" class="fb-icon">
-                                <img src="./assets/images/Group 32.svg" class="tw-icon">
-                                <img src="./assets/images/Group 34.svg" class="li-icon">
-                            </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p class="paragraph-p4">Phone</p>
+                        <p class="paragraph-p5">+1 123 456 789</p>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-8">
+                        <p class="paragraph-p4">Enquiries</p>
+                        <p class="paragraph-p5">help@shoptrade.co</p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p class="paragraph-p4 address-title">Address</p>
+                        <p class="paragraph-p5 address">
+                            376 Bathurst St
+                            #104 Toronto
+                            ON M5T 2S6, Canada
+                            </p>
+                    </div>
+                    <div class="col-12 offset-md-1 col-md-3">
+                        <p class="paragraph-p4 follow-title">Follow Us</p>
+                        <div class="social-links-wrapper">
+                            <img src="./assets/images/Group 33.svg" class="fb-icon">
+                            <img src="./assets/images/Group 32.svg" class="tw-icon">
+                            <img src="./assets/images/Group 34.svg" class="li-icon">
                         </div>
-                </div>
+                    </div>
+            </div>
         </div>
     </section>
     
@@ -120,6 +128,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="jquery.selectric.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.1/parsley.js"></script>
     <script src="custom.js"></script>
 </body>
 </html>

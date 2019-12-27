@@ -36,6 +36,7 @@
   position: absolute;
   left: 50%;
   top: 40px;
+  z-index: 2;
   content: url("./assets/images/Arrow_desktop_bottom.svg");
 }
 @media (min-width: 768px) {
@@ -353,11 +354,12 @@
 .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-image img {
   width: 100%;
   height: 100%;
+  object-fit: fill;
 }
 .case-studies-section .case-studies-wrapper .case-studies-carousel .carousel-card .card-carousel-title {
   position: absolute;
   top: 281px;
-  margin-left: 68px;
+  margin-left: 34px;
   color: #ffffff;
   font-size: 19px;
   font-weight: 700;
@@ -368,7 +370,7 @@
   position: absolute;
   top: 310px;
   max-width: 203px;
-  margin-left: 68px;
+  margin-left: 34px;
   color: #ffffff;
   font-family: "Roboto Regular";
   font-size: 14px;
@@ -1032,13 +1034,9 @@
   .skeptics-speak-section .slick-slider {
     margin-left: 172px;
   }
-  .skeptics-speak-section .slick-slide {
-    width: auto !important;
-  }
   .skeptics-speak-section .slick-slide .slide-content {
-    padding-right: 10px;
     background: #fff;
-    width: 329px !important;
+    padding-right: 25px;
   }
   .skeptics-speak-section .slick-slide .slide-content .slick-image {
     width: 329px;
@@ -1050,12 +1048,10 @@
     object-fit: cover;
   }
   .skeptics-speak-section .slick-slide .slide-content .slick-text {
-    position: absolute;
-    top: 0%;
+    display: none;
   }
   .skeptics-speak-section .slick-current {
     position: relative;
-    width: 444px !important;
   }
   .skeptics-speak-section .slick-current .slick-image {
     width: 444px !important;
@@ -1064,6 +1060,11 @@
   .skeptics-speak-section .slick-current .slick-image img {
     width: 100%;
     height: auto;
+  }
+  .skeptics-speak-section .slick-current .slick-text {
+    display: inline !important;
+    position: absolute;
+    top: 0%;
   }
 }
 

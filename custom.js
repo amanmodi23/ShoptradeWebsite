@@ -1,11 +1,5 @@
-$(document).ready(function () {
-   /*  $(window).resize(function () {
-        if (window >= 768) {
-            $(".collapse").addClass("show")
-        }
-        
-    }) */
-  
+$(document).ready(function () {  
+
     $('.slick-carousel').slick({
       arrows: true,
       centerPadding: "0px",
@@ -17,14 +11,13 @@ $(document).ready(function () {
       autoplay: false,
       dots: true,
       infinite: true,
-      arrows: false
+      arrows: false,
     });
     $('.homeSlider2').slick({
       autoplay: false,
       dots: true,
       infinite: true,
       arrows: false,
-      // asNavFor: '.tab-menu',
       responsive: [
         {
           breakpoint: 1199,
@@ -32,6 +25,25 @@ $(document).ready(function () {
         }
       ]
     });
+    $('.js-package-carousel').slick({
+      autoplay: false,
+      dots: false,
+      infinite: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 9999,
+          settings: "unslick"
+        }, {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+      ]
+    });
+  
 
     var windowSize = $(window).width();
     if (windowSize >= 768) {
@@ -48,7 +60,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1199,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 2.2,
                     infinite: false,
                     slidesToScroll: 1,
                 }
@@ -65,10 +77,10 @@ $(document).ready(function () {
     });
 
     $('.js-skeptics-speak-image-carousel').slick({
-        slidesToShow: 3,
-        arrows: true,
-        slidesToScroll: 1,
-        infinite: false,
+      slidesToShow: 3,
+      arrows: true,
+      slidesToScroll: 1,
+      infinite: false,
         responsive: [
             {
                 breakpoint: 1199,
@@ -170,3 +182,36 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+function submitForm() {
+//  var companyName = document.getElementById('companyName').value;
+//  var name = document.getElementById("name").value;
+//  var email = document.getElementById("email").value;
+//  var mobile = document.getElementById("mobile").value;
+//  var budget = document.getElementById("budget").value;
+//  var domain = document.getElementById("domain").value;
+//  var extraData = document.getElementById("extraData").value;
+//  var radioData = document.querySelector('input[name = "radiogroup"]:checked').value;
+  data = {
+    "title": document.getElementById("name").value + " " + document.getElementById('companyName').value + " " +
+      document.getElementById("email").value + " " + document.getElementById("mobile").value + " " +
+      document.getElementById("budget").value + " " + document.getElementById("domain").value + " " +
+      document.getElementById("extraData").value + " " + document.querySelector('input[name = "radiogroup"]:checked').value
+  }
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open( "POST", "https://shoptrade-721b58.pipedrive.com/v1/deals?api_token=2caebcab854083c73a000e09ddc0f22e34a096ed", false);
+  xmlHttp.setRequestHeader('Accept', 'application/json')
+  xmlHttp.setRequestHeader('Content-Type', 'application/json')
+  xmlHttp.send( JSON.stringify(data) );
+}
+
+// $(function () {
+//   $('#constact_us_form').parsley().on('field:validated', function() {
+//     var ok = $('.parsley-error').length === 0;
+//     $('.bs-callout-info').toggleClass('hidden', !ok);
+//     $('.bs-callout-warning').toggleClass('hidden', ok);
+//   })
+//   .on('form:submit', function() {
+//     return false; // Don't submit form for this demo
+//   });
+// });
